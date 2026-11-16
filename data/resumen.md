@@ -1,4 +1,4 @@
-# Datos recogidos el 2026-11-16 19:16 UTC
+# Datos recogidos el 2026-11-16 19:21 UTC
 Anuncios BOE con fincas: 8 · parcelas consultadas: 46
 Fuentes: API BOE (ultimos 14 dias) + Catastro (datos no protegidos) + WMS ocupacion del suelo.
 Estado de los servicios (errores = fallos de red/servidor durante esta ejecucion):
