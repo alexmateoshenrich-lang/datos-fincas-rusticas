@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Instalar dependencias
-        run: pip install requests shapely pypdf
+        run: pip install requests shapely pypdf pyproj
       - name: Recoger datos
         run: python recoger_datos.py
         continue-on-error: true
