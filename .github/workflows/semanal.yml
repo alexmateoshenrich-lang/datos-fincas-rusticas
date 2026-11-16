@@ -1,0 +1,41 @@
+name: Recoger datos de fincas rusticas
+
+on:
+  schedule:
+    - cron: "30 4 * * 1"   # lunes 04:30 UTC (05:30 o 06:30 en Madrid), antes de la tarea de las 7:52
+  workflow_dispatch:
+  push:
+    paths:
+      - "recoger_datos.py"
+      - ".github/workflows/semanal.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recoger-datos
+  cancel-in-progress: false
+
+jobs:
+  recoger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar dependencias
+        run: pip install requests shapely pypdf
+      - name: Recoger datos
+        run: python recoger_datos.py
+        continue-on-error: true
+      - name: Guardar resultados en el repositorio
+        if: always()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Datos actualizados $(date -u +%F)"
+          git pull --rebase origin main || true
+          git push
