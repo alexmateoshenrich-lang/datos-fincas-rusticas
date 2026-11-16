@@ -1,0 +1,1669 @@
+{
+ "generado": "2026-11-16 19:16 UTC",
+ "dias": 14,
+ "stats": {
+  "boe_sumarios_leidos": 12,
+  "rc_consultadas": 46,
+  "errores_Catastro-coord": 5,
+  "omitido_Catastro-coord": 41
+ },
+ "errores": {
+  "Catastro-coord": [
+   "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_RCCOOR {'SRS': 'EPSG:4326', 'RC': '04060A04500040'} -> HTTP 500",
+   "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_RCCOOR {'SRS': 'EPSG:4326', 'RC': '25190A00409010'} -> HTTP 500",
+   "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_RCCOOR {'SRS': 'EPSG:4326', 'RC': '25190A00409009'} -> HTTP 500",
+   "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_RCCOOR {'SRS': 'EPSG:4326', 'RC': '25190A00409067'} -> HTTP 500",
+   "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_RCCOOR {'SRS': 'EPSG:4326', 'RC': '25084A00400065'} -> HTTP 500"
+  ]
+ },
+ "anuncios": [
+  {
+   "id": "BOE-B-2026-37672",
+   "fecha": "2026-11-16",
+   "titulo": "Resolución de la Delegación de Economía y Hacienda en Teruel, por la que se anuncia subasta de bienes propiedad del Estado.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37672",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/16/pdfs/BOE-B-2026-37672.pdf",
+   "texto_via": "html",
+   "texto_inicio": "BOE-B-2026-37672 Resolución de la Delegación de Economía y Hacienda en Teruel, por la que se anuncia subasta de bienes propiedad del Estado. Agencia Estatal Boletín Oficial del Estado Ir a contenido Consultar el diario oficial BOE Idioma actual: Castellano / es Puede seleccionar otro idioma: es / Castellano ca / Català gl / Galego eu / Euskara va / Valencià en / English fr / Français Buscar Mi BOE Desconectado. Pulse para acceder al servicio 'Mi BOE' Menú Menú Diarios Oficiales BOE BORME Otros diarios oficiales Información Jurídica Todo el Derecho Biblioteca Jurídica Digital Otros servicios Notificaciones Edictos judiciales Portal de subastas Anunciantes Datos abiertos Está Vd. en Inicio BOE",
+   "rcs": []
+  },
+  {
+   "id": "BOE-B-2026-37018",
+   "fecha": "2026-11-12",
+   "titulo": "Anuncio de la Delegación Territorial de Economía, Hacienda, Fondos Europeos, Universidad, Industria, Energía e Innovación de la Junta de Andalucía en Almería por el que se convoca levantamiento de actas previa a la ocupación de la finca con referencia catastral 04060A045000400000GA afectada por el proyecto denominado \"Línea de evacuación 132 kV de la PSFV Tabernas I y PSFV Tabernas II\", sito en los términos municipales de Tabernas y de Lucainena de las Torres (Almería). Expediente: LAT 6860.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37018",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-B-2026-37018.pdf",
+   "texto_via": "html",
+   "texto_inicio": "BOE-B-2026-37018 Anuncio de la Delegación Territorial de Economía, Hacienda, Fondos Europeos, Universidad, Industria, Energía e Innovación de la Junta de Andalucía en Almería por el que se convoca levantamiento de actas previa a la ocupación de la finca con referencia catastral 04060A045000400000GA afectada por el proyecto denominado \"Línea de evacuación 132 kV de la PSFV Tabernas I y PSFV Tabernas II\", sito en los términos municipales de Tabernas y de Lucainena de las Torres (Almería). Expediente: LAT 6860. Agencia Estatal Boletín Oficial del Estado Ir a contenido Consultar el diario oficial BOE Idioma actual: Castellano / es Puede seleccionar otro idioma: es / Castellano ca / Català gl / G",
+   "rcs": [
+    {
+     "rc": "04060A045000400000GA",
+     "contexto": "BOE-B-2026-37018 Anuncio de la Delegación Territorial de Economía, Hacienda, Fondos Europeos, Universidad, Industria, Energía e Innovación de la Junta de Andalucía en Almería por el que se convoca levantamiento de actas previa a la ocupación de la finca con referencia catastral 04060A045000400000GA afectada por el proyecto denominado \"Línea de evacuación 132 kV de la PSFV Tabernas I y PSFV Tabernas II\", sito en los términos municipales de Tabernas y de Lucainena de las Torres (Almería). Expedie",
+     "catastro": {
+      "rc": "04060A045000400000GA",
+      "errores_servicio": [],
+      "municipio": "LUCAINENA DE LAS TORRES",
+      "provincia": "ALMERÍA",
+      "paraje": "DERRAMADORES",
+      "poligono": "45",
+      "parcela": "40",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 65362.0,
+      "ha": 6.536,
+      "subparcelas": [
+       {
+        "cultivo": "LABOR O LABRADÍO SECANO",
+        "clave": "C-",
+        "m2": 48760.0,
+        "intensidad": "00"
+       },
+       {
+        "cultivo": "ESPARTIZAL O ATOCHAR",
+        "clave": "AT",
+        "m2": 2464.0,
+        "intensidad": "00"
+       },
+       {
+        "cultivo": "ESPARTIZAL O ATOCHAR",
+        "clave": "AT",
+        "m2": 1323.0,
+        "intensidad": "00"
+       },
+       {
+        "cultivo": "ESPARTIZAL O ATOCHAR",
+        "clave": "AT",
+        "m2": 12815.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 75,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    }
+   ]
+  },
+  {
+   "id": "BOE-B-2026-36911",
+   "fecha": "2026-11-11",
+   "titulo": "Anuncio de los Servicios Territoriales del Departamento de Territorio, Vivienda y Transición Ecológica en Lleida, por el que se hace pública la convocatoria para la redacción de las actas previas a la ocupación de los bienes y/o derechos afectados por el procedimiento de expropiación derivado de la ejecución del proyecto de la infraestructura de evacuación, líneas soterradas a 25 kV y la LAT subterránea a 25KV, de la planta solar fotovoltaica denominada 22CER, de 4,5 MW, sobre terreno en suelo no urbanizable, en los términos municipales de Les Oluges y Cervera, en la comarca de La Segarra (exp. FUE-2021-02341200).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36911",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-B-2026-36911.pdf",
+   "texto_via": "html",
+   "texto_inicio": "BOE-B-2026-36911 Anuncio de los Servicios Territoriales del Departamento de Territorio, Vivienda y Transición Ecológica en Lleida, por el que se hace pública la convocatoria para la redacción de las actas previas a la ocupación de los bienes y/o derechos afectados por el procedimiento de expropiación derivado de la ejecución del proyecto de la infraestructura de evacuación, líneas soterradas a 25 kV y la LAT subterránea a 25KV, de la planta solar fotovoltaica denominada 22CER, de 4,5 MW, sobre terreno en suelo no urbanizable, en los términos municipales de Les Oluges y Cervera, en la comarca de La Segarra (exp. FUE-2021-02341200). Agencia Estatal Boletín Oficial del Estado Ir a contenido Con",
+   "rcs": [
+    {
+     "rc": "25190A00409010",
+     "contexto": "resados que no hayan podido ser identificados, a los titulares de bienes y derechos afectados que sean desconocidos, así como de aquellos respecto de los cuales se ignore el lugar de la notificación. Anexo Término municipal: Les Oluges Lugar: Ayuntamiento de Les Oluges Polígono Parcela Referencia Catastral Titular Uso del suelo Fecha Hora 004 9010 25190A00409010 Ayuntamiento de les Oluges Camino 25/11/2026 9:00 004 9009 25190A00409009 Ayuntamiento de les Oluges Camino 25/11/2026 9:15 004 9067 25190A00409067 Ayuntamiento de les Oluges Camino 25/11/2026 9:30 T",
+     "catastro": {
+      "rc": "25190A00409010",
+      "errores_servicio": [],
+      "municipio": "LES OLUGES",
+      "provincia": "LLEIDA",
+      "paraje": "CAMI",
+      "poligono": "4",
+      "parcela": "9010",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 649.0,
+      "ha": 0.065,
+      "subparcelas": [
+       {
+        "cultivo": "VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO",
+        "clave": "VT",
+        "m2": 649.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 0,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "25190A00409009",
+     "contexto": " derechos afectados que sean desconocidos, así como de aquellos respecto de los cuales se ignore el lugar de la notificación. Anexo Término municipal: Les Oluges Lugar: Ayuntamiento de Les Oluges Polígono Parcela Referencia Catastral Titular Uso del suelo Fecha Hora 004 9010 25190A00409010 Ayuntamiento de les Oluges Camino 25/11/2026 9:00 004 9009 25190A00409009 Ayuntamiento de les Oluges Camino 25/11/2026 9:15 004 9067 25190A00409067 Ayuntamiento de les Oluges Camino 25/11/2026 9:30 Término municipal: Cervera Lugar: Ayuntamiento de Cervera Polígono Parcela ",
+     "catastro": {
+      "rc": "25190A00409009",
+      "errores_servicio": [],
+      "municipio": "LES OLUGES",
+      "provincia": "LLEIDA",
+      "paraje": "CAMI",
+      "poligono": "4",
+      "parcela": "9009",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 2487.0,
+      "ha": 0.249,
+      "subparcelas": [
+       {
+        "cultivo": "VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO",
+        "clave": "VT",
+        "m2": 2487.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 0,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "25190A00409067",
+     "contexto": "e los cuales se ignore el lugar de la notificación. Anexo Término municipal: Les Oluges Lugar: Ayuntamiento de Les Oluges Polígono Parcela Referencia Catastral Titular Uso del suelo Fecha Hora 004 9010 25190A00409010 Ayuntamiento de les Oluges Camino 25/11/2026 9:00 004 9009 25190A00409009 Ayuntamiento de les Oluges Camino 25/11/2026 9:15 004 9067 25190A00409067 Ayuntamiento de les Oluges Camino 25/11/2026 9:30 Término municipal: Cervera Lugar: Ayuntamiento de Cervera Polígono Parcela Referencia Catastral Titular Uso del suelo Fecha Hora 004 00065 25084A0040",
+     "catastro": {
+      "rc": "25190A00409067",
+      "errores_servicio": [],
+      "municipio": "LES OLUGES",
+      "provincia": "LLEIDA",
+      "paraje": "CAMI",
+      "poligono": "4",
+      "parcela": "9067",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 1308.0,
+      "ha": 0.131,
+      "subparcelas": [
+       {
+        "cultivo": "VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO",
+        "clave": "VT",
+        "m2": 1308.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 0,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "25084A00400065",
+     "contexto": "190A00409010 Ayuntamiento de les Oluges Camino 25/11/2026 9:00 004 9009 25190A00409009 Ayuntamiento de les Oluges Camino 25/11/2026 9:15 004 9067 25190A00409067 Ayuntamiento de les Oluges Camino 25/11/2026 9:30 Término municipal: Cervera Lugar: Ayuntamiento de Cervera Polígono Parcela Referencia Catastral Titular Uso del suelo Fecha Hora 004 00065 25084A00400065 Tejería de Cervera SA Rústica 25/11/2026 11:00 004 9069 25084A00409069 Ayuntamiento de Cervera Carretera 25/11/2026 11:15 LLeida, 26 de octubre de 2026.- Directora de los Servicios Territoriales en L",
+     "catastro": {
+      "rc": "25084A00400065",
+      "errores_servicio": [],
+      "municipio": "CERVERA",
+      "provincia": "LLEIDA",
+      "paraje": "CAPELL",
+      "poligono": "4",
+      "parcela": "65",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 15958.0,
+      "ha": 1.596,
+      "subparcelas": [
+       {
+        "cultivo": "MATORRAL",
+        "clave": "MT",
+        "m2": 15516.0,
+        "intensidad": "04"
+       },
+       {
+        "cultivo": "LABOR -TIERRA ARABLE",
+        "clave": "C-",
+        "m2": 67.0,
+        "intensidad": "18"
+       },
+       {
+        "cultivo": "LABOR -TIERRA ARABLE",
+        "clave": "C-",
+        "m2": 254.0,
+        "intensidad": "16"
+       },
+       {
+        "cultivo": "MATORRAL",
+        "clave": "MT",
+        "m2": 121.0,
+        "intensidad": "04"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 98,
+      "pct_dudoso": 0,
+      "pct_no_monte": 2,
+      "clase_catastro": "monte"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "25084A00409069",
+     "contexto": " 25190A00409009 Ayuntamiento de les Oluges Camino 25/11/2026 9:15 004 9067 25190A00409067 Ayuntamiento de les Oluges Camino 25/11/2026 9:30 Término municipal: Cervera Lugar: Ayuntamiento de Cervera Polígono Parcela Referencia Catastral Titular Uso del suelo Fecha Hora 004 00065 25084A00400065 Tejería de Cervera SA Rústica 25/11/2026 11:00 004 9069 25084A00409069 Ayuntamiento de Cervera Carretera 25/11/2026 11:15 LLeida, 26 de octubre de 2026.- Directora de los Servicios Territoriales en Lleida, Josse Terés Cinca. subir Contactar Sobre la sede electrónica Map",
+     "catastro": {
+      "rc": "25084A00409069",
+      "errores_servicio": [],
+      "municipio": "CERVERA",
+      "provincia": "LLEIDA",
+      "paraje": "TERROS",
+      "poligono": "4",
+      "parcela": "9069",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 20115.0,
+      "ha": 2.011,
+      "subparcelas": [
+       {
+        "cultivo": "VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO",
+        "clave": "VT",
+        "m2": 20115.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 0,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    }
+   ],
+   "agrupaciones_colindantes": [
+    {
+     "rcs": [
+      "25084A00400065",
+      "25084A00409069"
+     ],
+     "n": 2,
+     "ha": 3.61
+    },
+    {
+     "rcs": [
+      "25190A00409010",
+      "25190A00409009",
+      "25190A00409067"
+     ],
+     "n": 3,
+     "ha": 0.45
+    }
+   ]
+  },
+  {
+   "id": "BOE-B-2026-36914",
+   "fecha": "2026-11-11",
+   "titulo": "Resolución de la Delegación Territorial de la Consejería Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación de la Junta de Andalucía en Córdoba, por la que se concede Autorización Administrativa Previa, Autorización Administrativa de Construcción y Declaración, en concreto, de Utilidad Pública, para las instalaciones eléctricas de alta tensión recogidas en el proyecto denominado: Nueva línea de media tensión 15 kV entre el apoyo A553610 y el apoyo A556998 para cierre de las línea denominadas \"FTE_PA_2\" y \"PALMA_RÍO\", sito en parajes Ochavillo Bajo, Las Monjas, Casablanca, en los términos municipales de Fuente Palmera y Hornachuelos (Córdoba), y se convoca para el levantamiento de actas previas a la ocupación de las fincas afectadas. (AT 36/20-1).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36914",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-B-2026-36914.pdf",
+   "texto_via": "html",
+   "texto_inicio": "BOE-B-2026-36914 Resolución de la Delegación Territorial de la Consejería Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación de la Junta de Andalucía en Córdoba, por la que se concede Autorización Administrativa Previa, Autorización Administrativa de Construcción y Declaración, en concreto, de Utilidad Pública, para las instalaciones eléctricas de alta tensión recogidas en el proyecto denominado: Nueva línea de media tensión 15 kV entre el apoyo A553610 y el apoyo A556998 para cierre de las línea denominadas \"FTE_PA_2\" y \"PALMA_RÍO\", sito en parajes Ochavillo Bajo, Las Monjas, Casablanca, en los términos municipales de Fuente Palmera y Hornachuelos (Córdob",
+   "rcs": [
+    {
+     "rc": "14036A037000110000FO",
+     "contexto": "so-Administrativa. Anexo I Nota: sobre las parcelas del proyecto señaladas con asterisco (*) no procede expropiación Nº Parcela según proyecto Propietarios Referencia Catastral Provincia T.M. Paraje Polígono Parcela Longitud (m) Servidumbre de paso (m²) Apoyos Nº Apoyos Pleno dominio (m²) Ocupación temporal (m²) Uso del suelo 1 49509283N 30989971R 14036A037000110000FO Córdoba Hornachuelos Casablanca 37 11 272,03 4003,0165 3 Nº 1, Nº 2, Nº 3 4,2483 400,30165 Olivar *2 P1403600H 14036A037090060000FD Córdoba Hornachuelos Camino 37 9006 5,44 156,67 15,667 Vía de comun",
+     "catastro": {
+      "rc": "14036A037000110000FO",
+      "errores_servicio": [],
+      "municipio": "HORNACHUELOS",
+      "provincia": "CÓRDOBA",
+      "paraje": "CASABLANCA",
+      "poligono": "37",
+      "parcela": "11",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 169.0,
+      "ha": 0.017,
+      "subparcelas": [
+       {
+        "cultivo": "NARANJO",
+        "clave": "NR",
+        "m2": 166794.0,
+        "intensidad": "07"
+       }
+      ],
+      "construcciones": [
+       {
+        "lcd": "AGRARIO",
+        "es": "E",
+        "pt": "BJ",
+        "pu": "EX",
+        "stl": "169"
+       }
+      ],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 100,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "14036A037090060000FD",
+     "contexto": "n proyecto Propietarios Referencia Catastral Provincia T.M. Paraje Polígono Parcela Longitud (m) Servidumbre de paso (m²) Apoyos Nº Apoyos Pleno dominio (m²) Ocupación temporal (m²) Uso del suelo 1 49509283N 30989971R 14036A037000110000FO Córdoba Hornachuelos Casablanca 37 11 272,03 4003,0165 3 Nº 1, Nº 2, Nº 3 4,2483 400,30165 Olivar *2 P1403600H 14036A037090060000FD Córdoba Hornachuelos Camino 37 9006 5,44 156,67 15,667 Vía de comunicación dominio público 3 Herederos de 75300672Y 14036A037000120001GL (a) Córdoba Hornachuelos Las Monjas 37 12 - 26,11 2,611 Labor ",
+     "catastro": {
+      "rc": "14036A037090060000FD",
+      "errores_servicio": [],
+      "municipio": "HORNACHUELOS",
+      "provincia": "CÓRDOBA",
+      "paraje": "CAMINO",
+      "poligono": "37",
+      "parcela": "9006",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 4171.0,
+      "ha": 0.417,
+      "subparcelas": [
+       {
+        "cultivo": "VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO",
+        "clave": "VT",
+        "m2": 4171.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 0,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "14036A037000120001GL",
+     "contexto": "s Pleno dominio (m²) Ocupación temporal (m²) Uso del suelo 1 49509283N 30989971R 14036A037000110000FO Córdoba Hornachuelos Casablanca 37 11 272,03 4003,0165 3 Nº 1, Nº 2, Nº 3 4,2483 400,30165 Olivar *2 P1403600H 14036A037090060000FD Córdoba Hornachuelos Camino 37 9006 5,44 156,67 15,667 Vía de comunicación dominio público 3 Herederos de 75300672Y 14036A037000120001GL (a) Córdoba Hornachuelos Las Monjas 37 12 - 26,11 2,611 Labor regadío *4 P1400000D 14036A038090050000FL Córdoba Hornachuelos Ctra. Palma Ochavillo 38 9005 8,1 92,13 9,213 Vía de comunicación dominio ",
+     "catastro": {
+      "rc": "14036A037000120001GL",
+      "errores_servicio": [],
+      "municipio": "HORNACHUELOS",
+      "provincia": "CÓRDOBA",
+      "paraje": "MONJAS LAS",
+      "poligono": "37",
+      "parcela": "12",
+      "uso": "Residencial",
+      "superficie_parcela_m2": 293.0,
+      "ha": 0.029,
+      "subparcelas": [],
+      "construcciones": [
+       {
+        "lcd": "VIVIENDA",
+        "es": "01",
+        "pt": "00",
+        "pu": "01",
+        "stl": "124"
+       },
+       {
+        "lcd": "APARCAMIENTO",
+        "es": "01",
+        "pt": "00",
+        "pu": "02",
+        "stl": "110"
+       },
+       {
+        "lcd": "DEPORTIVO",
+        "es": "01",
+        "pt": "00",
+        "pu": "01",
+        "stl": "59"
+       }
+      ],
+      "clase_catastro": null
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "14036A038090050000FL",
+     "contexto": "rdoba Hornachuelos Casablanca 37 11 272,03 4003,0165 3 Nº 1, Nº 2, Nº 3 4,2483 400,30165 Olivar *2 P1403600H 14036A037090060000FD Córdoba Hornachuelos Camino 37 9006 5,44 156,67 15,667 Vía de comunicación dominio público 3 Herederos de 75300672Y 14036A037000120001GL (a) Córdoba Hornachuelos Las Monjas 37 12 - 26,11 2,611 Labor regadío *4 P1400000D 14036A038090050000FL Córdoba Hornachuelos Ctra. Palma Ochavillo 38 9005 8,1 92,13 9,213 Vía de comunicación dominio público 5 49509283N 30989971R 14036A038000240000FX Córdoba Hornachuelos Casablanca 38 24 16,34 257,67 25",
+     "catastro": {
+      "rc": "14036A038090050000FL",
+      "errores_servicio": [],
+      "municipio": "HORNACHUELOS",
+      "provincia": "CÓRDOBA",
+      "paraje": "CTRA PALMA OCHAVILLO",
+      "poligono": "38",
+      "parcela": "9005",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 26886.0,
+      "ha": 2.689,
+      "subparcelas": [
+       {
+        "cultivo": "VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO",
+        "clave": "VT",
+        "m2": 26886.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 0,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "14036A038000240000FX",
+     "contexto": "elos Camino 37 9006 5,44 156,67 15,667 Vía de comunicación dominio público 3 Herederos de 75300672Y 14036A037000120001GL (a) Córdoba Hornachuelos Las Monjas 37 12 - 26,11 2,611 Labor regadío *4 P1400000D 14036A038090050000FL Córdoba Hornachuelos Ctra. Palma Ochavillo 38 9005 8,1 92,13 9,213 Vía de comunicación dominio público 5 49509283N 30989971R 14036A038000240000FX Córdoba Hornachuelos Casablanca 38 24 16,34 257,67 25,767 Olivar 6 75301192C 14623979G 52563958B 52569418C 14036A038000250000FI Córdoba Hornachuelos Las Monjas 38 25 396,34 6128,061 4 Nº 4, Nº 5, Nº ",
+     "catastro": {
+      "rc": "14036A038000240000FX",
+      "errores_servicio": [],
+      "municipio": "HORNACHUELOS",
+      "provincia": "CÓRDOBA",
+      "paraje": "CASABLANCA",
+      "poligono": "38",
+      "parcela": "24",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 62941.0,
+      "ha": 6.294,
+      "subparcelas": [
+       {
+        "cultivo": "OLIVAR",
+        "clave": "OR",
+        "m2": 62941.0,
+        "intensidad": "08"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 100,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "14036A038000250000FI",
+     "contexto": "doba Hornachuelos Las Monjas 37 12 - 26,11 2,611 Labor regadío *4 P1400000D 14036A038090050000FL Córdoba Hornachuelos Ctra. Palma Ochavillo 38 9005 8,1 92,13 9,213 Vía de comunicación dominio público 5 49509283N 30989971R 14036A038000240000FX Córdoba Hornachuelos Casablanca 38 24 16,34 257,67 25,767 Olivar 6 75301192C 14623979G 52563958B 52569418C 14036A038000250000FI Córdoba Hornachuelos Las Monjas 38 25 396,34 6128,061 4 Nº 4, Nº 5, Nº 6, Nº 7 5,6644 612,8061 Labor regadío *7 P1403600H 14036A038090030000FQ Córdoba Hornachuelos Camino 38 9003 5,93 60,576 6,0576 V",
+     "catastro": {
+      "rc": "14036A038000250000FI",
+      "errores_servicio": [],
+      "municipio": "HORNACHUELOS",
+      "provincia": "CÓRDOBA",
+      "paraje": "MONJAS LAS",
+      "poligono": "38",
+      "parcela": "25",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 146911.0,
+      "ha": 14.691,
+      "subparcelas": [
+       {
+        "cultivo": "OLIVAR",
+        "clave": "OR",
+        "m2": 146911.0,
+        "intensidad": "08"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 100,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "14036A038090030000FQ",
+     "contexto": "9005 8,1 92,13 9,213 Vía de comunicación dominio público 5 49509283N 30989971R 14036A038000240000FX Córdoba Hornachuelos Casablanca 38 24 16,34 257,67 25,767 Olivar 6 75301192C 14623979G 52563958B 52569418C 14036A038000250000FI Córdoba Hornachuelos Las Monjas 38 25 396,34 6128,061 4 Nº 4, Nº 5, Nº 6, Nº 7 5,6644 612,8061 Labor regadío *7 P1403600H 14036A038090030000FQ Córdoba Hornachuelos Camino 38 9003 5,93 60,576 6,0576 Vía de comunicación dominio público 8 75301192C 14623979G 52563958B 52569418C 14036A038000260000FJ Córdoba Hornachuelos Las Monjas 38 26 632,56 ",
+     "catastro": {
+      "rc": "14036A038090030000FQ",
+      "errores_servicio": [],
+      "municipio": "HORNACHUELOS",
+      "provincia": "CÓRDOBA",
+      "paraje": "CAMINO",
+      "poligono": "38",
+      "parcela": "9003",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 44412.0,
+      "ha": 4.441,
+      "subparcelas": [
+       {
+        "cultivo": "VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO",
+        "clave": "VT",
+        "m2": 44412.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 0,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "14036A038000260000FJ",
+     "contexto": "767 Olivar 6 75301192C 14623979G 52563958B 52569418C 14036A038000250000FI Córdoba Hornachuelos Las Monjas 38 25 396,34 6128,061 4 Nº 4, Nº 5, Nº 6, Nº 7 5,6644 612,8061 Labor regadío *7 P1403600H 14036A038090030000FQ Córdoba Hornachuelos Camino 38 9003 5,93 60,576 6,0576 Vía de comunicación dominio público 8 75301192C 14623979G 52563958B 52569418C 14036A038000260000FJ Córdoba Hornachuelos Las Monjas 38 26 632,56 10300,967 5 Nº 8, Nº 9, Nº 10, Nº 11, Nº 12 7,0805 1030,0967 Labor regadío 9 Herederos de 75300672Y 14030A013000280000DE Córdoba Fuente Palmera Ochavillo ",
+     "catastro": {
+      "rc": "14036A038000260000FJ",
+      "errores_servicio": [],
+      "municipio": "HORNACHUELOS",
+      "provincia": "CÓRDOBA",
+      "paraje": "MONJAS LAS",
+      "poligono": "38",
+      "parcela": "26",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 221275.0,
+      "ha": 22.128,
+      "subparcelas": [
+       {
+        "cultivo": "LABOR O LABRADÍO REGADÍO",
+        "clave": "CR",
+        "m2": 221275.0,
+        "intensidad": "04"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 100,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "14030A013000280000DE",
+     "contexto": "61 Labor regadío *7 P1403600H 14036A038090030000FQ Córdoba Hornachuelos Camino 38 9003 5,93 60,576 6,0576 Vía de comunicación dominio público 8 75301192C 14623979G 52563958B 52569418C 14036A038000260000FJ Córdoba Hornachuelos Las Monjas 38 26 632,56 10300,967 5 Nº 8, Nº 9, Nº 10, Nº 11, Nº 12 7,0805 1030,0967 Labor regadío 9 Herederos de 75300672Y 14030A013000280000DE Córdoba Fuente Palmera Ochavillo Bajo 13 28 2611,6 4270,745 4 Nº 13, Nº 14, Nº 15, Nº 16 5,4583 450,2424 Labor regadío 10 30513603D 2510604UG1821S0001DT Córdoba Fuente Palmera 14129 CL Nueva Apertura",
+     "catastro": {
+      "rc": "14030A013000280000DE",
+      "errores_servicio": [],
+      "municipio": "FUENTE PALMERA",
+      "provincia": "CÓRDOBA",
+      "paraje": "OCHAVILLO BAJO",
+      "poligono": "13",
+      "parcela": "28",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 50348.0,
+      "ha": 5.035,
+      "subparcelas": [
+       {
+        "cultivo": "LABOR O LABRADÍO REGADÍO",
+        "clave": "CR",
+        "m2": 50348.0,
+        "intensidad": "02"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 100,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    }
+   ],
+   "agrupaciones_colindantes": [
+    {
+     "rcs": [
+      "14036A037000110000FO",
+      "14036A037090060000FD",
+      "14036A037000120001GL",
+      "14036A038090050000FL",
+      "14036A038000240000FX",
+      "14036A038000250000FI",
+      "14036A038090030000FQ",
+      "14036A038000260000FJ",
+      "14030A013000280000DE"
+     ],
+     "n": 9,
+     "ha": 55.74
+    }
+   ]
+  },
+  {
+   "id": "BOE-B-2026-36156",
+   "fecha": "2026-11-05",
+   "titulo": "Resolución de la Delegación de Economía y Hacienda de Segovia por la que se anuncia la celebración de subasta pública al alza de 27 fincas rústicas propiedad de la Administración General del Estado en la provincia de Segovia, con admisión simultánea de ofertas en sobre cerrado.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36156",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-B-2026-36156.pdf",
+   "texto_via": "html",
+   "texto_inicio": "BOE-B-2026-36156 Resolución de la Delegación de Economía y Hacienda de Segovia por la que se anuncia la celebración de subasta pública al alza de 27 fincas rústicas propiedad de la Administración General del Estado en la provincia de Segovia, con admisión simultánea de ofertas en sobre cerrado. Agencia Estatal Boletín Oficial del Estado Ir a contenido Consultar el diario oficial BOE Idioma actual: Castellano / es Puede seleccionar otro idioma: es / Castellano ca / Català gl / Galego eu / Euskara va / Valencià en / English fr / Français Buscar Mi BOE Desconectado. Pulse para acceder al servicio 'Mi BOE' Menú Menú Diarios Oficiales BOE BORME Otros diarios oficiales Información Jurídica Todo el",
+   "rcs": [
+    {
+     "rc": "40143B001000480000GJ",
+     "contexto": " tercera y cuarta subasta. Se celebrarán a continuación en el mismo acto la segunda, tercera y cuarta convocatoria de la subasta con una rebaja de un 15% del tipo de salida. FINCAS RÚSTICAS ORDEN TERMINO_MUNICIPAL POLIGONO (CAT) PARCELA (CAT) SUPERFICIE CATASTRO (Ha) R.CATASTRAL TIPO DE SALIDA 1ª SUBASTA (€) FIANZA 5% (€) 1 Matabuena 1 48 01-10-24 40143B001000480000GJ 2.055,51 102,78 2 Matabuena 1 93 00-85-12 40143B001000930000GA 1.577,34 78,87 3 Matabuena 1 127 00-46-94 40143B001001270000GQ 871,88 43,59 4 Matabuena y Gallegos 1 149 01-24-13 40143B001001490000GU 2",
+     "catastro": {
+      "rc": "40143B001000480000GJ",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "LLANOS",
+      "poligono": "1",
+      "parcela": "48",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 11024.0,
+      "ha": 1.102,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 11024.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B001000930000GA",
+     "contexto": "ismo acto la segunda, tercera y cuarta convocatoria de la subasta con una rebaja de un 15% del tipo de salida. FINCAS RÚSTICAS ORDEN TERMINO_MUNICIPAL POLIGONO (CAT) PARCELA (CAT) SUPERFICIE CATASTRO (Ha) R.CATASTRAL TIPO DE SALIDA 1ª SUBASTA (€) FIANZA 5% (€) 1 Matabuena 1 48 01-10-24 40143B001000480000GJ 2.055,51 102,78 2 Matabuena 1 93 00-85-12 40143B001000930000GA 1.577,34 78,87 3 Matabuena 1 127 00-46-94 40143B001001270000GQ 871,88 43,59 4 Matabuena y Gallegos 1 149 01-24-13 40143B001001490000GU 2.265,43 113,27 5 Matabuena 2 83 00-41-50 40143B002000830000GO 1",
+     "catastro": {
+      "rc": "40143B001000930000GA",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "ROZONCILLO",
+      "poligono": "1",
+      "parcela": "93",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 8512.0,
+      "ha": 0.851,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 8512.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B001001270000GQ",
+     "contexto": "ta con una rebaja de un 15% del tipo de salida. FINCAS RÚSTICAS ORDEN TERMINO_MUNICIPAL POLIGONO (CAT) PARCELA (CAT) SUPERFICIE CATASTRO (Ha) R.CATASTRAL TIPO DE SALIDA 1ª SUBASTA (€) FIANZA 5% (€) 1 Matabuena 1 48 01-10-24 40143B001000480000GJ 2.055,51 102,78 2 Matabuena 1 93 00-85-12 40143B001000930000GA 1.577,34 78,87 3 Matabuena 1 127 00-46-94 40143B001001270000GQ 871,88 43,59 4 Matabuena y Gallegos 1 149 01-24-13 40143B001001490000GU 2.265,43 113,27 5 Matabuena 2 83 00-41-50 40143B002000830000GO 1.871,48 93,57 6 Matabuena 2 177 00-85-48 40143B002001770000GO 1",
+     "catastro": {
+      "rc": "40143B001001270000GQ",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "ROZONES",
+      "poligono": "1",
+      "parcela": "127",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 4694.0,
+      "ha": 0.469,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 4694.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B001001490000GU",
+     "contexto": "RMINO_MUNICIPAL POLIGONO (CAT) PARCELA (CAT) SUPERFICIE CATASTRO (Ha) R.CATASTRAL TIPO DE SALIDA 1ª SUBASTA (€) FIANZA 5% (€) 1 Matabuena 1 48 01-10-24 40143B001000480000GJ 2.055,51 102,78 2 Matabuena 1 93 00-85-12 40143B001000930000GA 1.577,34 78,87 3 Matabuena 1 127 00-46-94 40143B001001270000GQ 871,88 43,59 4 Matabuena y Gallegos 1 149 01-24-13 40143B001001490000GU 2.265,43 113,27 5 Matabuena 2 83 00-41-50 40143B002000830000GO 1.871,48 93,57 6 Matabuena 2 177 00-85-48 40143B002001770000GO 1.586,15 79,31 7 Matabuena 2 10161 01-36-86 40143B002101610000GL 2.739,06",
+     "catastro": {
+      "rc": "40143B001001490000GU",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "CARAMINGO",
+      "poligono": "1",
+      "parcela": "149",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 12413.0,
+      "ha": 1.241,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 12413.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B002000830000GO",
+     "contexto": "O (Ha) R.CATASTRAL TIPO DE SALIDA 1ª SUBASTA (€) FIANZA 5% (€) 1 Matabuena 1 48 01-10-24 40143B001000480000GJ 2.055,51 102,78 2 Matabuena 1 93 00-85-12 40143B001000930000GA 1.577,34 78,87 3 Matabuena 1 127 00-46-94 40143B001001270000GQ 871,88 43,59 4 Matabuena y Gallegos 1 149 01-24-13 40143B001001490000GU 2.265,43 113,27 5 Matabuena 2 83 00-41-50 40143B002000830000GO 1.871,48 93,57 6 Matabuena 2 177 00-85-48 40143B002001770000GO 1.586,15 79,31 7 Matabuena 2 10161 01-36-86 40143B002101610000GL 2.739,06 136,95 8 Matabuena 3 73 00-45-31 40143B003000730000GU 2.064,79",
+     "catastro": {
+      "rc": "40143B002000830000GO",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "VEGA TEJERA",
+      "poligono": "2",
+      "parcela": "83",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 4150.0,
+      "ha": 0.415,
+      "subparcelas": [
+       {
+        "cultivo": "PRADOS O PRADERAS",
+        "clave": "PD",
+        "m2": 4150.0,
+        "intensidad": "01"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B002001770000GO",
+     "contexto": "1 Matabuena 1 48 01-10-24 40143B001000480000GJ 2.055,51 102,78 2 Matabuena 1 93 00-85-12 40143B001000930000GA 1.577,34 78,87 3 Matabuena 1 127 00-46-94 40143B001001270000GQ 871,88 43,59 4 Matabuena y Gallegos 1 149 01-24-13 40143B001001490000GU 2.265,43 113,27 5 Matabuena 2 83 00-41-50 40143B002000830000GO 1.871,48 93,57 6 Matabuena 2 177 00-85-48 40143B002001770000GO 1.586,15 79,31 7 Matabuena 2 10161 01-36-86 40143B002101610000GL 2.739,06 136,95 8 Matabuena 3 73 00-45-31 40143B003000730000GU 2.064,79 103,24 9 Matabuena y Gallegos 3 102 00-79-90 40143B00300102000",
+     "catastro": {
+      "rc": "40143B002001770000GO",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "LA PRADERILLA",
+      "poligono": "2",
+      "parcela": "177",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 8548.0,
+      "ha": 0.855,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 8548.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B002101610000GL",
+     "contexto": "Matabuena 1 93 00-85-12 40143B001000930000GA 1.577,34 78,87 3 Matabuena 1 127 00-46-94 40143B001001270000GQ 871,88 43,59 4 Matabuena y Gallegos 1 149 01-24-13 40143B001001490000GU 2.265,43 113,27 5 Matabuena 2 83 00-41-50 40143B002000830000GO 1.871,48 93,57 6 Matabuena 2 177 00-85-48 40143B002001770000GO 1.586,15 79,31 7 Matabuena 2 10161 01-36-86 40143B002101610000GL 2.739,06 136,95 8 Matabuena 3 73 00-45-31 40143B003000730000GU 2.064,79 103,24 9 Matabuena y Gallegos 3 102 00-79-90 40143B003001020000GZ 3.906,37 195,32 10 Matabuena 4 19 03-86-58 40143B004000190000",
+     "catastro": {
+      "rc": "40143B002101610000GL",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "LA PINILLA",
+      "poligono": "2",
+      "parcela": "10161",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 13686.0,
+      "ha": 1.369,
+      "subparcelas": [
+       {
+        "cultivo": "PASTIZAL",
+        "clave": "E-",
+        "m2": 13686.0,
+        "intensidad": "02"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 0,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B003000730000GU",
+     "contexto": "atabuena 1 127 00-46-94 40143B001001270000GQ 871,88 43,59 4 Matabuena y Gallegos 1 149 01-24-13 40143B001001490000GU 2.265,43 113,27 5 Matabuena 2 83 00-41-50 40143B002000830000GO 1.871,48 93,57 6 Matabuena 2 177 00-85-48 40143B002001770000GO 1.586,15 79,31 7 Matabuena 2 10161 01-36-86 40143B002101610000GL 2.739,06 136,95 8 Matabuena 3 73 00-45-31 40143B003000730000GU 2.064,79 103,24 9 Matabuena y Gallegos 3 102 00-79-90 40143B003001020000GZ 3.906,37 195,32 10 Matabuena 4 19 03-86-58 40143B004000190000GB 7.173,23 358,66 11 Matabuena y Arcones 4 44 01-43-40 40143B0",
+     "catastro": {
+      "rc": "40143B003000730000GU",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "EL SOTO",
+      "poligono": "3",
+      "parcela": "73",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 4531.0,
+      "ha": 0.453,
+      "subparcelas": [
+       {
+        "cultivo": "PRADOS O PRADERAS",
+        "clave": "PD",
+        "m2": 4531.0,
+        "intensidad": "01"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B003001020000GZ",
+     "contexto": "legos 1 149 01-24-13 40143B001001490000GU 2.265,43 113,27 5 Matabuena 2 83 00-41-50 40143B002000830000GO 1.871,48 93,57 6 Matabuena 2 177 00-85-48 40143B002001770000GO 1.586,15 79,31 7 Matabuena 2 10161 01-36-86 40143B002101610000GL 2.739,06 136,95 8 Matabuena 3 73 00-45-31 40143B003000730000GU 2.064,79 103,24 9 Matabuena y Gallegos 3 102 00-79-90 40143B003001020000GZ 3.906,37 195,32 10 Matabuena 4 19 03-86-58 40143B004000190000GB 7.173,23 358,66 11 Matabuena y Arcones 4 44 01-43-40 40143B004000440000GE 2.978,69 148,93 12 Matabuena 4 53 00-69-38 40143B004000530000",
+     "catastro": {
+      "rc": "40143B003001020000GZ",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "LAS MALOTERAS",
+      "poligono": "3",
+      "parcela": "102",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 7990.0,
+      "ha": 0.799,
+      "subparcelas": [
+       {
+        "cultivo": "PRADOS O PRADERAS",
+        "clave": "PD",
+        "m2": 7990.0,
+        "intensidad": "02"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B004000190000GB",
+     "contexto": "buena 2 83 00-41-50 40143B002000830000GO 1.871,48 93,57 6 Matabuena 2 177 00-85-48 40143B002001770000GO 1.586,15 79,31 7 Matabuena 2 10161 01-36-86 40143B002101610000GL 2.739,06 136,95 8 Matabuena 3 73 00-45-31 40143B003000730000GU 2.064,79 103,24 9 Matabuena y Gallegos 3 102 00-79-90 40143B003001020000GZ 3.906,37 195,32 10 Matabuena 4 19 03-86-58 40143B004000190000GB 7.173,23 358,66 11 Matabuena y Arcones 4 44 01-43-40 40143B004000440000GE 2.978,69 148,93 12 Matabuena 4 53 00-69-38 40143B004000530000GA 3.101,81 155,09 13 Matabuena 4 71 01-52-55 40143B004000710000",
+     "catastro": {
+      "rc": "40143B004000190000GB",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "CARRACONES",
+      "poligono": "4",
+      "parcela": "19",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 38657.0,
+      "ha": 3.866,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 38657.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B004000440000GE",
+     "contexto": "00-85-48 40143B002001770000GO 1.586,15 79,31 7 Matabuena 2 10161 01-36-86 40143B002101610000GL 2.739,06 136,95 8 Matabuena 3 73 00-45-31 40143B003000730000GU 2.064,79 103,24 9 Matabuena y Gallegos 3 102 00-79-90 40143B003001020000GZ 3.906,37 195,32 10 Matabuena 4 19 03-86-58 40143B004000190000GB 7.173,23 358,66 11 Matabuena y Arcones 4 44 01-43-40 40143B004000440000GE 2.978,69 148,93 12 Matabuena 4 53 00-69-38 40143B004000530000GA 3.101,81 155,09 13 Matabuena 4 71 01-52-55 40143B004000710000GR 2.826,59 141,33 14 Matabuena 4 105 01-30-76 40143B004001050000GJ 2.351,",
+     "catastro": {
+      "rc": "40143B004000440000GE",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "RITONES",
+      "poligono": "4",
+      "parcela": "44",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 14340.0,
+      "ha": 1.434,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 14340.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B004000530000GA",
+     "contexto": " 01-36-86 40143B002101610000GL 2.739,06 136,95 8 Matabuena 3 73 00-45-31 40143B003000730000GU 2.064,79 103,24 9 Matabuena y Gallegos 3 102 00-79-90 40143B003001020000GZ 3.906,37 195,32 10 Matabuena 4 19 03-86-58 40143B004000190000GB 7.173,23 358,66 11 Matabuena y Arcones 4 44 01-43-40 40143B004000440000GE 2.978,69 148,93 12 Matabuena 4 53 00-69-38 40143B004000530000GA 3.101,81 155,09 13 Matabuena 4 71 01-52-55 40143B004000710000GR 2.826,59 141,33 14 Matabuena 4 105 01-30-76 40143B004001050000GJ 2.351,92 117,60 15 Matabuena 4 111 06-30-17 40143B004001110000GZ 10.16",
+     "catastro": {
+      "rc": "40143B004000530000GA",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "RITONES",
+      "poligono": "4",
+      "parcela": "53",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 6938.0,
+      "ha": 0.694,
+      "subparcelas": [
+       {
+        "cultivo": "PRADOS O PRADERAS",
+        "clave": "PD",
+        "m2": 6938.0,
+        "intensidad": "01"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B004000710000GR",
+     "contexto": "00-45-31 40143B003000730000GU 2.064,79 103,24 9 Matabuena y Gallegos 3 102 00-79-90 40143B003001020000GZ 3.906,37 195,32 10 Matabuena 4 19 03-86-58 40143B004000190000GB 7.173,23 358,66 11 Matabuena y Arcones 4 44 01-43-40 40143B004000440000GE 2.978,69 148,93 12 Matabuena 4 53 00-69-38 40143B004000530000GA 3.101,81 155,09 13 Matabuena 4 71 01-52-55 40143B004000710000GR 2.826,59 141,33 14 Matabuena 4 105 01-30-76 40143B004001050000GJ 2.351,92 117,60 15 Matabuena 4 111 06-30-17 40143B004001110000GZ 10.161,76 508,09 16 Matabuena 4 112 02-24-06 40143B004001120000GU 4.4",
+     "catastro": {
+      "rc": "40143B004000710000GR",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "LA MATA",
+      "poligono": "4",
+      "parcela": "71",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 15255.0,
+      "ha": 1.526,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 15255.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B004001050000GJ",
+     "contexto": "gos 3 102 00-79-90 40143B003001020000GZ 3.906,37 195,32 10 Matabuena 4 19 03-86-58 40143B004000190000GB 7.173,23 358,66 11 Matabuena y Arcones 4 44 01-43-40 40143B004000440000GE 2.978,69 148,93 12 Matabuena 4 53 00-69-38 40143B004000530000GA 3.101,81 155,09 13 Matabuena 4 71 01-52-55 40143B004000710000GR 2.826,59 141,33 14 Matabuena 4 105 01-30-76 40143B004001050000GJ 2.351,92 117,60 15 Matabuena 4 111 06-30-17 40143B004001110000GZ 10.161,76 508,09 16 Matabuena 4 112 02-24-06 40143B004001120000GU 4.435,82 221,79 17 Matabuena 4 119 00-37-60 40143B004001190000GQ 694",
+     "catastro": {
+      "rc": "40143B004001050000GJ",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "PRADO QUIÑONES",
+      "poligono": "4",
+      "parcela": "105",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 13075.0,
+      "ha": 1.308,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 13075.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B004001110000GZ",
+     "contexto": "ena 4 19 03-86-58 40143B004000190000GB 7.173,23 358,66 11 Matabuena y Arcones 4 44 01-43-40 40143B004000440000GE 2.978,69 148,93 12 Matabuena 4 53 00-69-38 40143B004000530000GA 3.101,81 155,09 13 Matabuena 4 71 01-52-55 40143B004000710000GR 2.826,59 141,33 14 Matabuena 4 105 01-30-76 40143B004001050000GJ 2.351,92 117,60 15 Matabuena 4 111 06-30-17 40143B004001110000GZ 10.161,76 508,09 16 Matabuena 4 112 02-24-06 40143B004001120000GU 4.435,82 221,79 17 Matabuena 4 119 00-37-60 40143B004001190000GQ 694,48 34,72 18 Matabuena 5 57 03-01-66 40143B005000570000GH 5.554,1",
+     "catastro": {
+      "rc": "40143B004001110000GZ",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "PRADERA VERDUGAL",
+      "poligono": "4",
+      "parcela": "111",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 63016.0,
+      "ha": 6.302,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 63016.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B004001120000GU",
+     "contexto": "a y Arcones 4 44 01-43-40 40143B004000440000GE 2.978,69 148,93 12 Matabuena 4 53 00-69-38 40143B004000530000GA 3.101,81 155,09 13 Matabuena 4 71 01-52-55 40143B004000710000GR 2.826,59 141,33 14 Matabuena 4 105 01-30-76 40143B004001050000GJ 2.351,92 117,60 15 Matabuena 4 111 06-30-17 40143B004001110000GZ 10.161,76 508,09 16 Matabuena 4 112 02-24-06 40143B004001120000GU 4.435,82 221,79 17 Matabuena 4 119 00-37-60 40143B004001190000GQ 694,48 34,72 18 Matabuena 5 57 03-01-66 40143B005000570000GH 5.554,15 277,71 19 Matabuena 5 72 00-62-88 40143B005000720000GT 1.166,14 ",
+     "catastro": {
+      "rc": "40143B004001120000GU",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "PRADERA VERDUGAL",
+      "poligono": "4",
+      "parcela": "112",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 22406.0,
+      "ha": 2.241,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 22406.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B004001190000GQ",
+     "contexto": " Matabuena 4 53 00-69-38 40143B004000530000GA 3.101,81 155,09 13 Matabuena 4 71 01-52-55 40143B004000710000GR 2.826,59 141,33 14 Matabuena 4 105 01-30-76 40143B004001050000GJ 2.351,92 117,60 15 Matabuena 4 111 06-30-17 40143B004001110000GZ 10.161,76 508,09 16 Matabuena 4 112 02-24-06 40143B004001120000GU 4.435,82 221,79 17 Matabuena 4 119 00-37-60 40143B004001190000GQ 694,48 34,72 18 Matabuena 5 57 03-01-66 40143B005000570000GH 5.554,15 277,71 19 Matabuena 5 72 00-62-88 40143B005000720000GT 1.166,14 58,31 20 Matabuena 5 77 00-87-70 40143B005000770000GR 1.743,46 87",
+     "catastro": {
+      "rc": "40143B004001190000GQ",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "LA MATA",
+      "poligono": "4",
+      "parcela": "119",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 3760.0,
+      "ha": 0.376,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 3760.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B005000570000GH",
+     "contexto": " 13 Matabuena 4 71 01-52-55 40143B004000710000GR 2.826,59 141,33 14 Matabuena 4 105 01-30-76 40143B004001050000GJ 2.351,92 117,60 15 Matabuena 4 111 06-30-17 40143B004001110000GZ 10.161,76 508,09 16 Matabuena 4 112 02-24-06 40143B004001120000GU 4.435,82 221,79 17 Matabuena 4 119 00-37-60 40143B004001190000GQ 694,48 34,72 18 Matabuena 5 57 03-01-66 40143B005000570000GH 5.554,15 277,71 19 Matabuena 5 72 00-62-88 40143B005000720000GT 1.166,14 58,31 20 Matabuena 5 77 00-87-70 40143B005000770000GR 1.743,46 87,17 21 Matabuena 6 29 02-90-43 40143B006000290000GZ 10.669,77",
+     "catastro": {
+      "rc": "40143B005000570000GH",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "DATA LAS CUESTAS",
+      "poligono": "5",
+      "parcela": "57",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 30165.0,
+      "ha": 3.017,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 30165.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B005000720000GT",
+     "contexto": " 14 Matabuena 4 105 01-30-76 40143B004001050000GJ 2.351,92 117,60 15 Matabuena 4 111 06-30-17 40143B004001110000GZ 10.161,76 508,09 16 Matabuena 4 112 02-24-06 40143B004001120000GU 4.435,82 221,79 17 Matabuena 4 119 00-37-60 40143B004001190000GQ 694,48 34,72 18 Matabuena 5 57 03-01-66 40143B005000570000GH 5.554,15 277,71 19 Matabuena 5 72 00-62-88 40143B005000720000GT 1.166,14 58,31 20 Matabuena 5 77 00-87-70 40143B005000770000GR 1.743,46 87,17 21 Matabuena 6 29 02-90-43 40143B006000290000GZ 10.669,77 533,49 22 Matabuena 6 55 01-56-87 40143B006000550000GD 2.850,76",
+     "catastro": {
+      "rc": "40143B005000720000GT",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "LA HUERTA",
+      "poligono": "5",
+      "parcela": "72",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 6288.0,
+      "ha": 0.629,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 6288.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B005000770000GR",
+     "contexto": "60 15 Matabuena 4 111 06-30-17 40143B004001110000GZ 10.161,76 508,09 16 Matabuena 4 112 02-24-06 40143B004001120000GU 4.435,82 221,79 17 Matabuena 4 119 00-37-60 40143B004001190000GQ 694,48 34,72 18 Matabuena 5 57 03-01-66 40143B005000570000GH 5.554,15 277,71 19 Matabuena 5 72 00-62-88 40143B005000720000GT 1.166,14 58,31 20 Matabuena 5 77 00-87-70 40143B005000770000GR 1.743,46 87,17 21 Matabuena 6 29 02-90-43 40143B006000290000GZ 10.669,77 533,49 22 Matabuena 6 55 01-56-87 40143B006000550000GD 2.850,76 142,54 23 Matabuena 6 60 00-23-43 40143B006000600000GI 427,54 ",
+     "catastro": {
+      "rc": "40143B005000770000GR",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "DATA LAS CUESTAS",
+      "poligono": "5",
+      "parcela": "77",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 8770.0,
+      "ha": 0.877,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 8770.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B006000290000GZ",
+     "contexto": "08,09 16 Matabuena 4 112 02-24-06 40143B004001120000GU 4.435,82 221,79 17 Matabuena 4 119 00-37-60 40143B004001190000GQ 694,48 34,72 18 Matabuena 5 57 03-01-66 40143B005000570000GH 5.554,15 277,71 19 Matabuena 5 72 00-62-88 40143B005000720000GT 1.166,14 58,31 20 Matabuena 5 77 00-87-70 40143B005000770000GR 1.743,46 87,17 21 Matabuena 6 29 02-90-43 40143B006000290000GZ 10.669,77 533,49 22 Matabuena 6 55 01-56-87 40143B006000550000GD 2.850,76 142,54 23 Matabuena 6 60 00-23-43 40143B006000600000GI 427,54 21,38 24 Matabuena 6 61 01-82-98 40143B006000610000GJ 3.642,87 ",
+     "catastro": {
+      "rc": "40143B006000290000GZ",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "EL ENCINAR",
+      "poligono": "6",
+      "parcela": "29",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 29042.0,
+      "ha": 2.904,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 9549.0,
+        "intensidad": "00"
+       },
+       {
+        "cultivo": "PRADOS O PRADERAS",
+        "clave": "PD",
+        "m2": 19493.0,
+        "intensidad": "02"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B006000550000GD",
+     "contexto": "21,79 17 Matabuena 4 119 00-37-60 40143B004001190000GQ 694,48 34,72 18 Matabuena 5 57 03-01-66 40143B005000570000GH 5.554,15 277,71 19 Matabuena 5 72 00-62-88 40143B005000720000GT 1.166,14 58,31 20 Matabuena 5 77 00-87-70 40143B005000770000GR 1.743,46 87,17 21 Matabuena 6 29 02-90-43 40143B006000290000GZ 10.669,77 533,49 22 Matabuena 6 55 01-56-87 40143B006000550000GD 2.850,76 142,54 23 Matabuena 6 60 00-23-43 40143B006000600000GI 427,54 21,38 24 Matabuena 6 61 01-82-98 40143B006000610000GJ 3.642,87 182,14 25 Matabuena 6 69 00-69-78 40143B006000690000GB 1.301,55 6",
+     "catastro": {
+      "rc": "40143B006000550000GD",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "DATA DE LA DEHESA",
+      "poligono": "6",
+      "parcela": "55",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 15687.0,
+      "ha": 1.569,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 15687.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B006000600000GI",
+     "contexto": ",72 18 Matabuena 5 57 03-01-66 40143B005000570000GH 5.554,15 277,71 19 Matabuena 5 72 00-62-88 40143B005000720000GT 1.166,14 58,31 20 Matabuena 5 77 00-87-70 40143B005000770000GR 1.743,46 87,17 21 Matabuena 6 29 02-90-43 40143B006000290000GZ 10.669,77 533,49 22 Matabuena 6 55 01-56-87 40143B006000550000GD 2.850,76 142,54 23 Matabuena 6 60 00-23-43 40143B006000600000GI 427,54 21,38 24 Matabuena 6 61 01-82-98 40143B006000610000GJ 3.642,87 182,14 25 Matabuena 6 69 00-69-78 40143B006000690000GB 1.301,55 65,08 26 Matabuena 6 96 00-41-32 40143B006000960000GZ 779,81 38,9",
+     "catastro": {
+      "rc": "40143B006000600000GI",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "DATA DE LA DEHESA",
+      "poligono": "6",
+      "parcela": "60",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 2343.0,
+      "ha": 0.234,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 2343.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B006000610000GJ",
+     "contexto": "277,71 19 Matabuena 5 72 00-62-88 40143B005000720000GT 1.166,14 58,31 20 Matabuena 5 77 00-87-70 40143B005000770000GR 1.743,46 87,17 21 Matabuena 6 29 02-90-43 40143B006000290000GZ 10.669,77 533,49 22 Matabuena 6 55 01-56-87 40143B006000550000GD 2.850,76 142,54 23 Matabuena 6 60 00-23-43 40143B006000600000GI 427,54 21,38 24 Matabuena 6 61 01-82-98 40143B006000610000GJ 3.642,87 182,14 25 Matabuena 6 69 00-69-78 40143B006000690000GB 1.301,55 65,08 26 Matabuena 6 96 00-41-32 40143B006000960000GZ 779,81 38,99 27 Matabuena 8 15 04-76-63 40143B008000150000GZ 8.148,75 40",
+     "catastro": {
+      "rc": "40143B006000610000GJ",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "DATA DE LA DEHESA",
+      "poligono": "6",
+      "parcela": "61",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 18298.0,
+      "ha": 1.83,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 18298.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B006000690000GB",
+     "contexto": "58,31 20 Matabuena 5 77 00-87-70 40143B005000770000GR 1.743,46 87,17 21 Matabuena 6 29 02-90-43 40143B006000290000GZ 10.669,77 533,49 22 Matabuena 6 55 01-56-87 40143B006000550000GD 2.850,76 142,54 23 Matabuena 6 60 00-23-43 40143B006000600000GI 427,54 21,38 24 Matabuena 6 61 01-82-98 40143B006000610000GJ 3.642,87 182,14 25 Matabuena 6 69 00-69-78 40143B006000690000GB 1.301,55 65,08 26 Matabuena 6 96 00-41-32 40143B006000960000GZ 779,81 38,99 27 Matabuena 8 15 04-76-63 40143B008000150000GZ 8.148,75 407,44 El tipo de salida de las fincas de conformidad con lo estab",
+     "catastro": {
+      "rc": "40143B006000690000GB",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "DATA DE LA DEHESA",
+      "poligono": "6",
+      "parcela": "69",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 6977.0,
+      "ha": 0.698,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 6977.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B006000960000GZ",
+     "contexto": "87,17 21 Matabuena 6 29 02-90-43 40143B006000290000GZ 10.669,77 533,49 22 Matabuena 6 55 01-56-87 40143B006000550000GD 2.850,76 142,54 23 Matabuena 6 60 00-23-43 40143B006000600000GI 427,54 21,38 24 Matabuena 6 61 01-82-98 40143B006000610000GJ 3.642,87 182,14 25 Matabuena 6 69 00-69-78 40143B006000690000GB 1.301,55 65,08 26 Matabuena 6 96 00-41-32 40143B006000960000GZ 779,81 38,99 27 Matabuena 8 15 04-76-63 40143B008000150000GZ 8.148,75 407,44 El tipo de salida de las fincas de conformidad con lo establecido en el artículo 106.1 del Real Decreto 1373/2009, de 28 d",
+     "catastro": {
+      "rc": "40143B006000960000GZ",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "LA MATALLANA",
+      "poligono": "6",
+      "parcela": "96",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 4132.0,
+      "ha": 0.413,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 4132.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "40143B008000150000GZ",
+     "contexto": "77 533,49 22 Matabuena 6 55 01-56-87 40143B006000550000GD 2.850,76 142,54 23 Matabuena 6 60 00-23-43 40143B006000600000GI 427,54 21,38 24 Matabuena 6 61 01-82-98 40143B006000610000GJ 3.642,87 182,14 25 Matabuena 6 69 00-69-78 40143B006000690000GB 1.301,55 65,08 26 Matabuena 6 96 00-41-32 40143B006000960000GZ 779,81 38,99 27 Matabuena 8 15 04-76-63 40143B008000150000GZ 8.148,75 407,44 El tipo de salida de las fincas de conformidad con lo establecido en el artículo 106.1 del Real Decreto 1373/2009, de 28 de agosto, por el que se aprueba el Reglamento General de la L",
+     "catastro": {
+      "rc": "40143B008000150000GZ",
+      "errores_servicio": [],
+      "municipio": "MATABUENA",
+      "provincia": "SEGOVIA",
+      "paraje": "EL POSTUERO",
+      "poligono": "8",
+      "parcela": "15",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 47662.0,
+      "ha": 4.766,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 47662.0,
+        "intensidad": "00"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 100,
+      "pct_no_monte": 0,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    }
+   ],
+   "agrupaciones_colindantes": []
+  },
+  {
+   "id": "BOE-B-2026-36158",
+   "fecha": "2026-11-05",
+   "titulo": "Anuncio de la Delegación de Economía y Hacienda en Alicante, por el que se hace público el acuerdo de inicio del procedimiento de investigación patrimonial relativo a la parcela 26 del polígono 19, paraje Fontcalent, del término municipal de Alicante.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36158",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-B-2026-36158.pdf",
+   "texto_via": "html",
+   "texto_inicio": "BOE-B-2026-36158 Anuncio de la Delegación de Economía y Hacienda en Alicante, por el que se hace público el acuerdo de inicio del procedimiento de investigación patrimonial relativo a la parcela 26 del polígono 19, paraje Fontcalent, del término municipal de Alicante. Agencia Estatal Boletín Oficial del Estado Ir a contenido Consultar el diario oficial BOE Idioma actual: Castellano / es Puede seleccionar otro idioma: es / Castellano ca / Català gl / Galego eu / Euskara va / Valencià en / English fr / Français Buscar Mi BOE Desconectado. Pulse para acceder al servicio 'Mi BOE' Menú Menú Diarios Oficiales BOE BORME Otros diarios oficiales Información Jurídica Todo el Derecho Biblioteca Jurídic",
+   "rcs": [
+    {
+     "rc": "03900A019000260000OY",
+     "contexto": "cas, el inicio de un procedimiento de investigación sobre la posible propiedad patrimonial de la Administración General del Estado de la siguiente parcela: Finca rústica, parcela 26 del polígono 19, paraje Fontcalent, del término municipal de Alicante, con una superficie de suelo de 2.796 metros cuadrados, según Catastro y con referencia catastral 03900A019000260000OY. Sus linderos son: al norte, parcela 9005 del polígono 19; al sur, parcela 27 del polígono 19; al este, parcela 9009 del polígono 19; y al oeste, parcela 9005 del polígono 19, todas del término munic",
+     "catastro": {
+      "rc": "03900A019000260000OY",
+      "errores_servicio": [],
+      "municipio": "ALICANTE/ALACANT",
+      "provincia": "ALICANTE",
+      "paraje": "FONTCALENT",
+      "poligono": "19",
+      "parcela": "26",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 2796.0,
+      "ha": 0.28,
+      "subparcelas": [
+       {
+        "cultivo": "PASTOS",
+        "clave": "E-",
+        "m2": 2483.0,
+        "intensidad": "01"
+       },
+       {
+        "cultivo": "LABOR O LABRADÍO SECANO",
+        "clave": "C-",
+        "m2": 313.0,
+        "intensidad": "02"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 89,
+      "pct_no_monte": 11,
+      "clase_catastro": "dudoso"
+     },
+     "coordenadas": null
+    }
+   ]
+  },
+  {
+   "id": "BOE-B-2026-36193",
+   "fecha": "2026-11-05",
+   "titulo": "Resolución de la Dirección General de Transición Energética y Economía Circular por la que se convoca para el levantamiento de Actas Previas a la Ocupación de las fincas afectadas por el proyecto de la nueva subestación transformadora STR FUENTIDUEÑA 66/20kV (ISE300), en el término municipal de Fuentidueña de Tajo (Madrid). EXE 11/26.",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36193",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-B-2026-36193.pdf",
+   "texto_via": "html",
+   "texto_inicio": "BOE-B-2026-36193 Resolución de la Dirección General de Transición Energética y Economía Circular por la que se convoca para el levantamiento de Actas Previas a la Ocupación de las fincas afectadas por el proyecto de la nueva subestación transformadora STR FUENTIDUEÑA 66/20kV (ISE300), en el término municipal de Fuentidueña de Tajo (Madrid). EXE 11/26. Agencia Estatal Boletín Oficial del Estado Ir a contenido Consultar el diario oficial BOE Idioma actual: Castellano / es Puede seleccionar otro idioma: es / Castellano ca / Català gl / Galego eu / Euskara va / Valencià en / English fr / Français Buscar Mi BOE Desconectado. Pulse para acceder al servicio 'Mi BOE' Menú Menú Diarios Oficiales BOE ",
+   "rcs": [
+    {
+     "rc": "28060A103003670000KG",
+     "contexto": " DE BIENES Y DERECHOS AFECTADOS: Proyecto de construcción de nueva subestación transformadora STR FUENTIDUEÑA 66/20kV (ISE300), en el término municipal de Fuentidueña de Tajo (Madrid). EXE 11/26 Finca Proyecto Referencia catastral Pol. Parcela Titular Catastral Afección pleno dominio (m²) Servidumbre de paso (m2) Ocupación temporal (m²) Día Hora 1 28060A103003670000KG 103 367 Ayuntamiento de Fuentidueña de Tajo 13.027 -- -- 12 11:00 2 28060A103004670000KL 103 467 Ayuntamiento de Estremera 15.648 -- -- 12 11:30 Madrid, 23 de octubre de 2026.- La Directora General d",
+     "catastro": {
+      "rc": "28060A103003670000KG",
+      "errores_servicio": [],
+      "municipio": "FUENTIDUEÑA DE TAJO",
+      "provincia": "MADRID",
+      "paraje": "VI/AS VEGA ARRIBA",
+      "poligono": "103",
+      "parcela": "367",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 13027.0,
+      "ha": 1.303,
+      "subparcelas": [
+       {
+        "cultivo": "LABOR -TIERRA ARABLE",
+        "clave": "CR",
+        "m2": 13027.0,
+        "intensidad": "11"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 100,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    },
+    {
+     "rc": "28060A103004670000KL",
+     "contexto": "dora STR FUENTIDUEÑA 66/20kV (ISE300), en el término municipal de Fuentidueña de Tajo (Madrid). EXE 11/26 Finca Proyecto Referencia catastral Pol. Parcela Titular Catastral Afección pleno dominio (m²) Servidumbre de paso (m2) Ocupación temporal (m²) Día Hora 1 28060A103003670000KG 103 367 Ayuntamiento de Fuentidueña de Tajo 13.027 -- -- 12 11:00 2 28060A103004670000KL 103 467 Ayuntamiento de Estremera 15.648 -- -- 12 11:30 Madrid, 23 de octubre de 2026.- La Directora General de Transición Energética y Economía Circular, Cristina Aparicio Maeztu. subir Contactar So",
+     "catastro": {
+      "rc": "28060A103004670000KL",
+      "errores_servicio": [],
+      "municipio": "FUENTIDUEÑA DE TAJO",
+      "provincia": "MADRID",
+      "paraje": "VI/AS VEGA ARRIBA",
+      "poligono": "103",
+      "parcela": "467",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 15648.0,
+      "ha": 1.565,
+      "subparcelas": [
+       {
+        "cultivo": "LABOR -TIERRA ARABLE",
+        "clave": "CR",
+        "m2": 15648.0,
+        "intensidad": "11"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 0,
+      "pct_dudoso": 0,
+      "pct_no_monte": 100,
+      "clase_catastro": "no_monte"
+     },
+     "coordenadas": null
+    }
+   ],
+   "agrupaciones_colindantes": [
+    {
+     "rcs": [
+      "28060A103003670000KG",
+      "28060A103004670000KL"
+     ],
+     "n": 2,
+     "ha": 2.87
+    }
+   ]
+  },
+  {
+   "id": "BOE-B-2026-36016",
+   "fecha": "2026-11-04",
+   "titulo": "Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de autorización para la ejecución del \"Plan de cortas para o aproveitamento forestal na parcela catastral 27047A08000351\", en las márgenes de varios cauces, parcela 351-polígono 80 de la C.M.V.M.C. de Lamaigrexa e lugares de Domiz e Pereiro da parroquia de Salcedo, parroquia de Lamaigrexa (San Pedro) , del T.M. de A Pobra do Brollón (Lugo).",
+   "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36016",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36016.pdf",
+   "texto_via": "html",
+   "texto_inicio": "BOE-B-2026-36016 Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de autorización para la ejecución del \"Plan de cortas para o aproveitamento forestal na parcela catastral 27047A08000351\", en las márgenes de varios cauces, parcela 351-polígono 80 de la C.M.V.M.C. de Lamaigrexa e lugares de Domiz e Pereiro da parroquia de Salcedo, parroquia de Lamaigrexa (San Pedro) , del T.M. de A Pobra do Brollón (Lugo). Agencia Estatal Boletín Oficial del Estado Ir a contenido Consultar el diario oficial BOE Idioma actual: Castellano / es Puede seleccionar otro idioma: es / Castellano ca / Català gl / Galego eu / Euskara va / Valencià en / English fr / Franç",
+   "rcs": [
+    {
+     "rc": "27047A08000351",
+     "contexto": "BOE-B-2026-36016 Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de autorización para la ejecución del \"Plan de cortas para o aproveitamento forestal na parcela catastral 27047A08000351\", en las márgenes de varios cauces, parcela 351-polígono 80 de la C.M.V.M.C. de Lamaigrexa e lugares de Domiz e Pereiro da parroquia de Salcedo, parroquia de Lamaigrexa (San Pedro) , del T.M. de A Po",
+     "catastro": {
+      "rc": "27047A08000351",
+      "errores_servicio": [],
+      "municipio": "A POBRA DO BROLLON",
+      "provincia": "LUGO",
+      "paraje": "AGRO",
+      "poligono": "80",
+      "parcela": "351",
+      "uso": "Agrario",
+      "superficie_parcela_m2": 1060652.0,
+      "ha": 106.065,
+      "subparcelas": [
+       {
+        "cultivo": "PINAR MADERABLE",
+        "clave": "MM",
+        "m2": 511050.0,
+        "intensidad": "02"
+       },
+       {
+        "cultivo": "IMPRODUCTIVO",
+        "clave": "I-",
+        "m2": 3727.0,
+        "intensidad": "00"
+       },
+       {
+        "cultivo": "CASTAÑAR",
+        "clave": "FC",
+        "m2": 17562.0,
+        "intensidad": "02"
+       },
+       {
+        "cultivo": "IMPRODUCTIVO",
+        "clave": "I-",
+        "m2": 3980.0,
+        "intensidad": "00"
+       },
+       {
+        "cultivo": "CASTAÑAR",
+        "clave": "FC",
+        "m2": 24060.0,
+        "intensidad": "03"
+       },
+       {
+        "cultivo": "CASTAÑAR",
+        "clave": "FC",
+        "m2": 17614.0,
+        "intensidad": "03"
+       },
+       {
+        "cultivo": "CASTAÑAR",
+        "clave": "FC",
+        "m2": 52832.0,
+        "intensidad": "02"
+       },
+       {
+        "cultivo": "IMPRODUCTIVO",
+        "clave": "I-",
+        "m2": 9044.0,
+        "intensidad": "00"
+       },
+       {
+        "cultivo": "IMPRODUCTIVO",
+        "clave": "I-",
+        "m2": 587.0,
+        "intensidad": "00"
+       },
+       {
+        "cultivo": "IMPRODUCTIVO",
+        "clave": "I-",
+        "m2": 44496.0,
+        "intensidad": "00"
+       },
+       {
+        "cultivo": "MATORRAL",
+        "clave": "MT",
+        "m2": 373132.0,
+        "intensidad": "03"
+       },
+       {
+        "cultivo": "CASTAÑAR",
+        "clave": "FC",
+        "m2": 2568.0,
+        "intensidad": "03"
+       }
+      ],
+      "construcciones": [],
+      "pct_monte": 83,
+      "pct_dudoso": 0,
+      "pct_no_monte": 0,
+      "clase_catastro": "monte"
+     },
+     "coordenadas": null
+    }
+   ]
+  }
+ ]
+}
