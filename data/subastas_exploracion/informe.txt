@@ -1,0 +1,4 @@
+robots.txt -> HTTP 200
+/: robots permite=False
+/subastas_ava.php: robots permite=False
+/reg/subastas_ava.php: robots permite=False
