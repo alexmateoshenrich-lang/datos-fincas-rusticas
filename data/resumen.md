@@ -1,4 +1,4 @@
-# Datos recogidos el 2026-11-16 19:21 UTC
+# Datos recogidos el 2026-11-16 19:38 UTC
 Anuncios BOE con fincas: 8 · parcelas consultadas: 46
 Fuentes: API BOE (ultimos 14 dias) + Catastro (datos no protegidos) + WMS ocupacion del suelo.
 Estado de los servicios (errores = fallos de red/servidor durante esta ejecucion):
@@ -8,7 +8,7 @@ Estado de los servicios (errores = fallos de red/servidor durante esta ejecucion
 - Catastro-DNPRC: 0 errores · OK
 - Catastro-coord: 5 errores · ejemplo: https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_RCCOOR {'SRS': 'EPSG:4326', 'RC': '04060A04500040'} -> HTTP 500
 - Catastro-INSPIRE: 0 errores · OK
-- WMS-capacidades: 0 errores · OK
+- WMS-capacidades: 1 errores · ejemplo: https://wms.mapama.gob.es/sig/Biodiversidad/MFE/wms.aspx {'service': 'WMS', 'request': 'GetCapabilities', 'version': '1.3.0'} -> SSLError(MaxRetryError("HTTPSConnectionPool(host='wms.mapama.gob.es', port=443): Max retries exceeded with url: /sig/Biodiversidad/MFE/wms.aspx?service=WMS&request=GetCapabilities&version=1.3.0 (Cause
 - WMS-info: 0 errores · OK
 
 Importante: 'clase_catastro' sale del cultivo catastral por superficie (monte si >=60% monte/arbolado/matorral).
@@ -22,7 +22,7 @@ https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37672 · https://www.boe.es/
 https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-37018 · https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-B-2026-37018.pdf
 | RC | municipio (prov) | pol/parc | ha | monte segun Catastro | cultivo dominante | construcciones | lat,lon | ocupacion suelo |
 |---|---|---|---|---|---|---|---|---|
-| 04060A045000400000GA | LUCAINENA DE LAS TORRES (ALMERÍA) | 45/40 | 6.536 | no_monte (0% monte) | LABOR O LABRADÍO SECANO | 0 | - | - |
+| 04060A045000400000GA | LUCAINENA DE LAS TORRES (ALMERÍA) | 45/40 | 6.536 | no_monte (0% monte) | LABOR O LABRADÍO SECANO | 0 | 37.07303,-2.22351 | - |
 
 ## BOE-B-2026-36911 · 2026-11-11 · Anuncio de los Servicios Territoriales del Departamento de Territorio, Vivienda y Transición Ecológica en Lleida, por el que se hace pública la convocatoria para la redacción de las actas previas a la ocupación de los bienes y/o derechos afectados por el procedimiento de expropiación derivado de la ejecución del proyecto de la infraestructura de evacuación, líneas soterradas a 25 kV y la LAT subterránea a 25KV, de la planta solar fotovoltaica denominada 22CER, de 4,5 MW, sobre terreno en suelo no urbanizable, en los términos municipales de Les Oluges y Cervera, en la comarca de La Segarra (exp. FUE-2021-02341200).
 https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36911 · https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-B-2026-36911.pdf
@@ -30,75 +30,75 @@ https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36911 · https://www.boe.es/
 - Parcelas colindantes verificadas con cartografia: 3 parcelas, 0.45 ha: 25190A00409010, 25190A00409009, 25190A00409067
 | RC | municipio (prov) | pol/parc | ha | monte segun Catastro | cultivo dominante | construcciones | lat,lon | ocupacion suelo |
 |---|---|---|---|---|---|---|---|---|
-| 25190A00409010 | LES OLUGES (LLEIDA) | 4/9010 | 0.065 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | - | - |
-| 25190A00409009 | LES OLUGES (LLEIDA) | 4/9009 | 0.249 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | - | - |
-| 25190A00409067 | LES OLUGES (LLEIDA) | 4/9067 | 0.131 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | - | - |
-| 25084A00400065 | CERVERA (LLEIDA) | 4/65 | 1.596 | monte (98% monte) | MATORRAL | 0 | - | - |
-| 25084A00409069 | CERVERA (LLEIDA) | 4/9069 | 2.011 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | - | - |
+| 25190A00409010 | LES OLUGES (LLEIDA) | 4/9010 | 0.065 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | 41.68166,1.31187 | - |
+| 25190A00409009 | LES OLUGES (LLEIDA) | 4/9009 | 0.249 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | 41.68379,1.30840 | - |
+| 25190A00409067 | LES OLUGES (LLEIDA) | 4/9067 | 0.131 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | 41.68514,1.30495 | - |
+| 25084A00400065 | CERVERA (LLEIDA) | 4/65 | 1.596 | monte (98% monte) | MATORRAL | 0 | 41.68148,1.29270 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.bf615edc-bcad-433a-b391-b75ecf59610f","geometry":{"type":"Polyg |
+| 25084A00409069 | CERVERA (LLEIDA) | 4/9069 | 2.011 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | 41.67962,1.28941 | - |
 
 ## BOE-B-2026-36914 · 2026-11-11 · Resolución de la Delegación Territorial de la Consejería Economía, Hacienda y Fondos Europeos y de Universidad, Industria, Energía e Innovación de la Junta de Andalucía en Córdoba, por la que se concede Autorización Administrativa Previa, Autorización Administrativa de Construcción y Declaración, en concreto, de Utilidad Pública, para las instalaciones eléctricas de alta tensión recogidas en el proyecto denominado: Nueva línea de media tensión 15 kV entre el apoyo A553610 y el apoyo A556998 para cierre de las línea denominadas "FTE_PA_2" y "PALMA_RÍO", sito en parajes Ochavillo Bajo, Las Monjas, Casablanca, en los términos municipales de Fuente Palmera y Hornachuelos (Córdoba), y se convoca para el levantamiento de actas previas a la ocupación de las fincas afectadas. (AT 36/20-1).
 https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36914 · https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-B-2026-36914.pdf
 - Parcelas colindantes verificadas con cartografia: 9 parcelas, 55.74 ha: 14036A037000110000FO, 14036A037090060000FD, 14036A037000120001GL, 14036A038090050000FL, 14036A038000240000FX, 14036A038000250000FI, 14036A038090030000FQ, 14036A038000260000FJ, 14030A013000280000DE
 | RC | municipio (prov) | pol/parc | ha | monte segun Catastro | cultivo dominante | construcciones | lat,lon | ocupacion suelo |
 |---|---|---|---|---|---|---|---|---|
-| 14036A037000110000FO | HORNACHUELOS (CÓRDOBA) | 37/11 | 0.017 | no_monte (0% monte) | NARANJO | 1 | - | - |
-| 14036A037090060000FD | HORNACHUELOS (CÓRDOBA) | 37/9006 | 0.417 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | - | - |
-| 14036A037000120001GL | HORNACHUELOS (CÓRDOBA) | 37/12 | 0.029 | sin datos | - | 3 | - | - |
-| 14036A038090050000FL | HORNACHUELOS (CÓRDOBA) | 38/9005 | 2.689 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | - | - |
-| 14036A038000240000FX | HORNACHUELOS (CÓRDOBA) | 38/24 | 6.294 | no_monte (0% monte) | OLIVAR | 0 | - | - |
-| 14036A038000250000FI | HORNACHUELOS (CÓRDOBA) | 38/25 | 14.691 | no_monte (0% monte) | OLIVAR | 0 | - | - |
-| 14036A038090030000FQ | HORNACHUELOS (CÓRDOBA) | 38/9003 | 4.441 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | - | - |
-| 14036A038000260000FJ | HORNACHUELOS (CÓRDOBA) | 38/26 | 22.128 | no_monte (0% monte) | LABOR O LABRADÍO REGADÍO | 0 | - | - |
-| 14030A013000280000DE | FUENTE PALMERA (CÓRDOBA) | 13/28 | 5.035 | no_monte (0% monte) | LABOR O LABRADÍO REGADÍO | 0 | - | - |
+| 14036A037000110000FO | HORNACHUELOS (CÓRDOBA) | 37/11 | 0.017 | no_monte (0% monte) | NARANJO | 1 | 37.76809,-5.14178 | - |
+| 14036A037090060000FD | HORNACHUELOS (CÓRDOBA) | 37/9006 | 0.417 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | 37.77105,-5.14069 | - |
+| 14036A037000120001GL | HORNACHUELOS (CÓRDOBA) | 37/12 | 0.029 | sin datos | - | 3 | 37.77073,-5.13816 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.d0990a53-09ed-4e82-a554-455236f64569","geometry":{"type":"Polyg |
+| 14036A038090050000FL | HORNACHUELOS (CÓRDOBA) | 38/9005 | 2.689 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | 37.76085,-5.15435 | - |
+| 14036A038000240000FX | HORNACHUELOS (CÓRDOBA) | 38/24 | 6.294 | no_monte (0% monte) | OLIVAR | 0 | 37.76582,-5.13954 | - |
+| 14036A038000250000FI | HORNACHUELOS (CÓRDOBA) | 38/25 | 14.691 | no_monte (0% monte) | OLIVAR | 0 | 37.76598,-5.13554 | - |
+| 14036A038090030000FQ | HORNACHUELOS (CÓRDOBA) | 38/9003 | 4.441 | no_monte (0% monte) | VÍA DE COMUNICACIÓN DE DOMINIO PÚBLICO | 0 | 37.75852,-5.14923 | - |
+| 14036A038000260000FJ | HORNACHUELOS (CÓRDOBA) | 38/26 | 22.128 | no_monte (0% monte) | LABOR O LABRADÍO REGADÍO | 0 | 37.76074,-5.13435 | - |
+| 14030A013000280000DE | FUENTE PALMERA (CÓRDOBA) | 13/28 | 5.035 | no_monte (0% monte) | LABOR O LABRADÍO REGADÍO | 0 | 37.75937,-5.13253 | - |
 
 ## BOE-B-2026-36156 · 2026-11-05 · Resolución de la Delegación de Economía y Hacienda de Segovia por la que se anuncia la celebración de subasta pública al alza de 27 fincas rústicas propiedad de la Administración General del Estado en la provincia de Segovia, con admisión simultánea de ofertas en sobre cerrado.
 https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36156 · https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-B-2026-36156.pdf
 | RC | municipio (prov) | pol/parc | ha | monte segun Catastro | cultivo dominante | construcciones | lat,lon | ocupacion suelo |
 |---|---|---|---|---|---|---|---|---|
-| 40143B001000480000GJ | MATABUENA (SEGOVIA) | 1/48 | 1.102 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B001000930000GA | MATABUENA (SEGOVIA) | 1/93 | 0.851 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B001001270000GQ | MATABUENA (SEGOVIA) | 1/127 | 0.469 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B001001490000GU | MATABUENA (SEGOVIA) | 1/149 | 1.241 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B002000830000GO | MATABUENA (SEGOVIA) | 2/83 | 0.415 | dudoso (0% monte) | PRADOS O PRADERAS | 0 | - | - |
-| 40143B002001770000GO | MATABUENA (SEGOVIA) | 2/177 | 0.855 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B002101610000GL | MATABUENA (SEGOVIA) | 2/10161 | 1.369 | no_monte (0% monte) | PASTIZAL | 0 | - | - |
-| 40143B003000730000GU | MATABUENA (SEGOVIA) | 3/73 | 0.453 | dudoso (0% monte) | PRADOS O PRADERAS | 0 | - | - |
-| 40143B003001020000GZ | MATABUENA (SEGOVIA) | 3/102 | 0.799 | dudoso (0% monte) | PRADOS O PRADERAS | 0 | - | - |
-| 40143B004000190000GB | MATABUENA (SEGOVIA) | 4/19 | 3.866 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B004000440000GE | MATABUENA (SEGOVIA) | 4/44 | 1.434 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B004000530000GA | MATABUENA (SEGOVIA) | 4/53 | 0.694 | dudoso (0% monte) | PRADOS O PRADERAS | 0 | - | - |
-| 40143B004000710000GR | MATABUENA (SEGOVIA) | 4/71 | 1.526 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B004001050000GJ | MATABUENA (SEGOVIA) | 4/105 | 1.308 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B004001110000GZ | MATABUENA (SEGOVIA) | 4/111 | 6.302 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B004001120000GU | MATABUENA (SEGOVIA) | 4/112 | 2.241 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B004001190000GQ | MATABUENA (SEGOVIA) | 4/119 | 0.376 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B005000570000GH | MATABUENA (SEGOVIA) | 5/57 | 3.017 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B005000720000GT | MATABUENA (SEGOVIA) | 5/72 | 0.629 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B005000770000GR | MATABUENA (SEGOVIA) | 5/77 | 0.877 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B006000290000GZ | MATABUENA (SEGOVIA) | 6/29 | 2.904 | dudoso (0% monte) | PRADOS O PRADERAS | 0 | - | - |
-| 40143B006000550000GD | MATABUENA (SEGOVIA) | 6/55 | 1.569 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B006000600000GI | MATABUENA (SEGOVIA) | 6/60 | 0.234 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B006000610000GJ | MATABUENA (SEGOVIA) | 6/61 | 1.83 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B006000690000GB | MATABUENA (SEGOVIA) | 6/69 | 0.698 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B006000960000GZ | MATABUENA (SEGOVIA) | 6/96 | 0.413 | dudoso (0% monte) | PASTOS | 0 | - | - |
-| 40143B008000150000GZ | MATABUENA (SEGOVIA) | 8/15 | 4.766 | dudoso (0% monte) | PASTOS | 0 | - | - |
+| 40143B001000480000GJ | MATABUENA (SEGOVIA) | 1/48 | 1.102 | dudoso (0% monte) | PASTOS | 0 | 41.11374,-3.77236 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.c2ca831e-d53e-47b6-8334-e30b5ff518be","geometry":{"type":"Polyg |
+| 40143B001000930000GA | MATABUENA (SEGOVIA) | 1/93 | 0.851 | dudoso (0% monte) | PASTOS | 0 | 41.11372,-3.77870 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.021331c9-0d49-4174-8626-8c1eb1f8f623","geometry":{"type":"Polyg |
+| 40143B001001270000GQ | MATABUENA (SEGOVIA) | 1/127 | 0.469 | dudoso (0% monte) | PASTOS | 0 | 41.09991,-3.77712 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.50305e67-627f-41f8-8ddb-8215b89ad9e8","geometry":{"type":"Polyg |
+| 40143B001001490000GU | MATABUENA (SEGOVIA) | 1/149 | 1.241 | dudoso (0% monte) | PASTOS | 0 | 41.10916,-3.78456 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.294d1926-6d0a-464e-a1a0-90f69446f917","geometry":{"type":"Polyg |
+| 40143B002000830000GO | MATABUENA (SEGOVIA) | 2/83 | 0.415 | dudoso (0% monte) | PRADOS O PRADERAS | 0 | 41.10653,-3.76024 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.65a05272-1b4f-41c3-98af-dbeaee4ac528","geometry":{"type":"Polyg |
+| 40143B002001770000GO | MATABUENA (SEGOVIA) | 2/177 | 0.855 | dudoso (0% monte) | PASTOS | 0 | 41.10336,-3.74818 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.f63de069-2fbf-4af0-a81c-f975b0fdac9d","geometry":{"type":"Polyg |
+| 40143B002101610000GL | MATABUENA (SEGOVIA) | 2/10161 | 1.369 | no_monte (0% monte) | PASTIZAL | 0 | 41.10393,-3.75149 | - |
+| 40143B003000730000GU | MATABUENA (SEGOVIA) | 3/73 | 0.453 | dudoso (0% monte) | PRADOS O PRADERAS | 0 | 41.09720,-3.76361 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.f3b10158-ecc3-4f93-bfaf-d037567ae351","geometry":{"type":"Polyg |
+| 40143B003001020000GZ | MATABUENA (SEGOVIA) | 3/102 | 0.799 | dudoso (0% monte) | PRADOS O PRADERAS | 0 | 41.09340,-3.77480 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.9dfbdb63-a375-40bc-9548-dc9c7ba70624","geometry":{"type":"Polyg |
+| 40143B004000190000GB | MATABUENA (SEGOVIA) | 4/19 | 3.866 | dudoso (0% monte) | PASTOS | 0 | 41.10215,-3.74004 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.744fe2bb-ee78-489b-99a9-2f308f795286","geometry":{"type":"Polyg |
+| 40143B004000440000GE | MATABUENA (SEGOVIA) | 4/44 | 1.434 | dudoso (0% monte) | PASTOS | 0 | 41.10144,-3.73612 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.f55f77e6-b342-4983-99c1-d1bf9a5da88a","geometry":{"type":"Polyg |
+| 40143B004000530000GA | MATABUENA (SEGOVIA) | 4/53 | 0.694 | dudoso (0% monte) | PRADOS O PRADERAS | 0 | 41.09580,-3.74401 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.7572ca11-d429-4396-8908-034bbeabb2ba","geometry":{"type":"Polyg |
+| 40143B004000710000GR | MATABUENA (SEGOVIA) | 4/71 | 1.526 | dudoso (0% monte) | PASTOS | 0 | 41.09332,-3.74077 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.db41555f-00b9-4ec2-9ed3-f1d2502c4ce9","geometry":{"type":"Polyg |
+| 40143B004001050000GJ | MATABUENA (SEGOVIA) | 4/105 | 1.308 | dudoso (0% monte) | PASTOS | 0 | 41.09150,-3.73249 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.d73a95c8-865f-426d-a91d-2706ce514ea6","geometry":{"type":"Polyg |
+| 40143B004001110000GZ | MATABUENA (SEGOVIA) | 4/111 | 6.302 | dudoso (0% monte) | PASTOS | 0 | 41.08936,-3.73694 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.e30465ca-332a-41b6-b489-03073a392100","geometry":{"type":"Polyg |
+| 40143B004001120000GU | MATABUENA (SEGOVIA) | 4/112 | 2.241 | dudoso (0% monte) | PASTOS | 0 | 41.08720,-3.73884 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.71fd12ae-0e78-4ad6-83cf-6e78da114ccb","geometry":{"type":"Polyg |
+| 40143B004001190000GQ | MATABUENA (SEGOVIA) | 4/119 | 0.376 | dudoso (0% monte) | PASTOS | 0 | 41.09054,-3.74100 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.021e2188-cbf5-40d0-888c-a00c8e7b26f5","geometry":{"type":"Polyg |
+| 40143B005000570000GH | MATABUENA (SEGOVIA) | 5/57 | 3.017 | dudoso (0% monte) | PASTOS | 0 | 41.08234,-3.75413 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.6b0e3e59-39a3-4fc7-8c60-cd9475ca7aea","geometry":{"type":"Polyg |
+| 40143B005000720000GT | MATABUENA (SEGOVIA) | 5/72 | 0.629 | dudoso (0% monte) | PASTOS | 0 | 41.08260,-3.74948 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.0d115990-54b4-45d7-8d57-cc7d62a7fc3d","geometry":{"type":"Polyg |
+| 40143B005000770000GR | MATABUENA (SEGOVIA) | 5/77 | 0.877 | dudoso (0% monte) | PASTOS | 0 | 41.08592,-3.74991 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.2b187e76-c325-4393-bb6f-62a29859bb6b","geometry":{"type":"Polyg |
+| 40143B006000290000GZ | MATABUENA (SEGOVIA) | 6/29 | 2.904 | dudoso (0% monte) | PRADOS O PRADERAS | 0 | 41.09166,-3.77056 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.edd9dc85-05e3-43f3-82dc-6d1e9ad1472e","geometry":{"type":"Polyg |
+| 40143B006000550000GD | MATABUENA (SEGOVIA) | 6/55 | 1.569 | dudoso (0% monte) | PASTOS | 0 | 41.08087,-3.75504 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.7a47ee4d-41f9-4cc4-9a6a-ceb2729989db","geometry":{"type":"Polyg |
+| 40143B006000600000GI | MATABUENA (SEGOVIA) | 6/60 | 0.234 | dudoso (0% monte) | PASTOS | 0 | 41.08049,-3.75901 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.632243cf-5fdd-461d-b162-2b520d3e5115","geometry":{"type":"Polyg |
+| 40143B006000610000GJ | MATABUENA (SEGOVIA) | 6/61 | 1.83 | dudoso (0% monte) | PASTOS | 0 | 41.08154,-3.75932 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.6a922b12-52ce-48d0-9c39-ee87636c4198","geometry":{"type":"Polyg |
+| 40143B006000690000GB | MATABUENA (SEGOVIA) | 6/69 | 0.698 | dudoso (0% monte) | PASTOS | 0 | 41.08465,-3.75578 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.faeaab10-bfbd-427f-aa3b-f8ebcb3d63e0","geometry":{"type":"Polyg |
+| 40143B006000960000GZ | MATABUENA (SEGOVIA) | 6/96 | 0.413 | dudoso (0% monte) | PASTOS | 0 | 41.09014,-3.76097 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.9ff20852-48bb-45c1-ae3e-5044039f1988","geometry":{"type":"Polyg |
+| 40143B008000150000GZ | MATABUENA (SEGOVIA) | 8/15 | 4.766 | dudoso (0% monte) | PASTOS | 0 | 41.08653,-3.73092 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.12bb96d0-7106-4f42-9c00-9411e3d6b869","geometry":{"type":"Polyg |
 
 ## BOE-B-2026-36158 · 2026-11-05 · Anuncio de la Delegación de Economía y Hacienda en Alicante, por el que se hace público el acuerdo de inicio del procedimiento de investigación patrimonial relativo a la parcela 26 del polígono 19, paraje Fontcalent, del término municipal de Alicante.
 https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36158 · https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-B-2026-36158.pdf
 | RC | municipio (prov) | pol/parc | ha | monte segun Catastro | cultivo dominante | construcciones | lat,lon | ocupacion suelo |
 |---|---|---|---|---|---|---|---|---|
-| 03900A019000260000OY | ALICANTE/ALACANT (ALICANTE) | 19/26 | 0.28 | dudoso (0% monte) | PASTOS | 0 | - | - |
+| 03900A019000260000OY | ALICANTE/ALACANT (ALICANTE) | 19/26 | 0.28 | dudoso (0% monte) | PASTOS | 0 | 38.38637,-0.56668 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.9e52abcf-284a-42b7-9350-11422bcebae7","geometry":{"type":"Polyg |
 
 ## BOE-B-2026-36193 · 2026-11-05 · Resolución de la Dirección General de Transición Energética y Economía Circular por la que se convoca para el levantamiento de Actas Previas a la Ocupación de las fincas afectadas por el proyecto de la nueva subestación transformadora STR FUENTIDUEÑA 66/20kV (ISE300), en el término municipal de Fuentidueña de Tajo (Madrid). EXE 11/26.
 https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36193 · https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-B-2026-36193.pdf
 - Parcelas colindantes verificadas con cartografia: 2 parcelas, 2.87 ha: 28060A103003670000KG, 28060A103004670000KL
 | RC | municipio (prov) | pol/parc | ha | monte segun Catastro | cultivo dominante | construcciones | lat,lon | ocupacion suelo |
 |---|---|---|---|---|---|---|---|---|
-| 28060A103003670000KG | FUENTIDUEÑA DE TAJO (MADRID) | 103/367 | 1.303 | no_monte (0% monte) | LABOR -TIERRA ARABLE | 0 | - | - |
-| 28060A103004670000KL | FUENTIDUEÑA DE TAJO (MADRID) | 103/467 | 1.565 | no_monte (0% monte) | LABOR -TIERRA ARABLE | 0 | - | - |
+| 28060A103003670000KG | FUENTIDUEÑA DE TAJO (MADRID) | 103/367 | 1.303 | no_monte (0% monte) | LABOR -TIERRA ARABLE | 0 | 40.12864,-3.13512 | - |
+| 28060A103004670000KL | FUENTIDUEÑA DE TAJO (MADRID) | 103/467 | 1.565 | no_monte (0% monte) | LABOR -TIERRA ARABLE | 0 | 40.12891,-3.13474 | - |
 
 ## BOE-B-2026-36016 · 2026-11-04 · Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de autorización para la ejecución del "Plan de cortas para o aproveitamento forestal na parcela catastral 27047A08000351", en las márgenes de varios cauces, parcela 351-polígono 80 de la C.M.V.M.C. de Lamaigrexa e lugares de Domiz e Pereiro da parroquia de Salcedo, parroquia de Lamaigrexa (San Pedro) , del T.M. de A Pobra do Brollón (Lugo).
 https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-36016 · https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-B-2026-36016.pdf
 | RC | municipio (prov) | pol/parc | ha | monte segun Catastro | cultivo dominante | construcciones | lat,lon | ocupacion suelo |
 |---|---|---|---|---|---|---|---|---|
-| 27047A08000351 | A POBRA DO BROLLON (LUGO) | 80/351 | 106.065 | monte (83% monte) | PINAR MADERABLE | 0 | - | - |
+| 27047A08000351 | A POBRA DO BROLLON (LUGO) | 80/351 | 106.065 | monte (83% monte) | PINAR MADERABLE | 0 | 42.56522,-7.32993 | Ocupacion suelo IGN (CORINE/SIOSE) [LC.LandCoverSurfaces]: {"type":"FeatureCollection","features":[{"type":"Feature","id":"siose_ar2017.2da6eb69-2d5a-454a-9d6a-04930026e6ce","geometry":{"type":"Polyg |

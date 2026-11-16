@@ -1,10 +1,12 @@
 {
- "generado": "2026-11-16 19:21 UTC",
+ "generado": "2026-11-16 19:38 UTC",
  "dias": 14,
  "stats": {
   "boe_sumarios_leidos": 12,
   "rc_consultadas": 46,
   "errores_Catastro-coord": 5,
+  "coord_desde_geometria": 46,
+  "errores_WMS-capacidades": 1,
   "omitido_Catastro-coord": 41
  },
  "errores": {
@@ -14,6 +16,9 @@
    "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_RCCOOR {'SRS': 'EPSG:4326', 'RC': '25190A00409009'} -> HTTP 500",
    "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_RCCOOR {'SRS': 'EPSG:4326', 'RC': '25190A00409067'} -> HTTP 500",
    "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_RCCOOR {'SRS': 'EPSG:4326', 'RC': '25084A00400065'} -> HTTP 500"
+  ],
+  "WMS-capacidades": [
+   "https://wms.mapama.gob.es/sig/Biodiversidad/MFE/wms.aspx {'service': 'WMS', 'request': 'GetCapabilities', 'version': '1.3.0'} -> SSLError(MaxRetryError(\"HTTPSConnectionPool(host='wms.mapama.gob.es', port=443): Max retries exceeded with url: /sig/Biodiversidad/MFE/wms.aspx?service=WMS&request=GetCapabilities&version=1.3.0 (Cause"
   ]
  },
  "anuncios": [
@@ -82,7 +87,10 @@
       "pct_no_monte": 75,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -2.2235072025561373,
+      "lat": 37.07302864269569
+     }
     }
    ]
   },
@@ -123,7 +131,10 @@
       "pct_no_monte": 0,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": 1.3118727384807507,
+      "lat": 41.68166489890044
+     }
     },
     {
      "rc": "25190A00409009",
@@ -153,7 +164,10 @@
       "pct_no_monte": 0,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": 1.3083953440092628,
+      "lat": 41.68378908529554
+     }
     },
     {
      "rc": "25190A00409067",
@@ -183,7 +197,10 @@
       "pct_no_monte": 0,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": 1.3049507158448082,
+      "lat": 41.68513856661692
+     }
     },
     {
      "rc": "25084A00400065",
@@ -231,7 +248,17 @@
       "pct_no_monte": 2,
       "clase_catastro": "monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": 1.2926961303234503,
+      "lat": 41.68148358818403
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.bf615edc-bcad-433a-b391-b75ecf59610f\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[1.29132624,41.68109366],[1.29111152,41.68120088],[1.29135194,41.68140917],[1.29158658,41.68157676],[1.2920639,41.68182298],[1.29250732,41.68203321],[1.29254623,41.6819884],[1.2926747,41.68203696],[1.29287813,41.68214059],[1.2929808,41.68209251],[1.29316353,41.68197512],[1.29330042,41.68184602],[1.29342795,41.68174759],[1.29365132,41.6815"
+      }
+     ]
     },
     {
      "rc": "25084A00409069",
@@ -261,7 +288,10 @@
       "pct_no_monte": 0,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": 1.2894104826733763,
+      "lat": 41.679617770611166
+     }
     }
    ],
    "agrupaciones_colindantes": [
@@ -329,7 +359,10 @@
       "pct_no_monte": 100,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -5.141781894803885,
+      "lat": 37.768092545751536
+     }
     },
     {
      "rc": "14036A037090060000FD",
@@ -359,7 +392,10 @@
       "pct_no_monte": 0,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -5.140685102426316,
+      "lat": 37.77104605190359
+     }
     },
     {
      "rc": "14036A037000120001GL",
@@ -401,7 +437,17 @@
       ],
       "clase_catastro": null
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -5.1381591512455875,
+      "lat": 37.77072511165504
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.d0990a53-09ed-4e82-a554-455236f64569\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-5.13823419,37.76978368],[-5.13805173,37.76980613],[-5.13791821,37.76984237],[-5.13777274,37.76993665],[-5.13763741,37.77000882],[-5.13759456,37.77001757],[-5.13669151,37.76999315],[-5.13656024,37.76995483],[-5.13650534,37.76990384],[-5.13652861,37.76982251],[-5.13660661,37.76968734],[-5.13674217,37.76938391],[-5.13677704,37.7692818],[-5"
+      }
+     ]
     },
     {
      "rc": "14036A038090050000FL",
@@ -431,7 +477,10 @@
       "pct_no_monte": 0,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -5.154348310195798,
+      "lat": 37.7608511416848
+     }
     },
     {
      "rc": "14036A038000240000FX",
@@ -461,7 +510,10 @@
       "pct_no_monte": 100,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -5.139542434760527,
+      "lat": 37.76581823566138
+     }
     },
     {
      "rc": "14036A038000250000FI",
@@ -491,7 +543,10 @@
       "pct_no_monte": 100,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -5.135537237770096,
+      "lat": 37.765984547464654
+     }
     },
     {
      "rc": "14036A038090030000FQ",
@@ -521,7 +576,10 @@
       "pct_no_monte": 0,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -5.149229076939578,
+      "lat": 37.758516234360116
+     }
     },
     {
      "rc": "14036A038000260000FJ",
@@ -551,7 +609,10 @@
       "pct_no_monte": 100,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -5.134347126809185,
+      "lat": 37.76073806634692
+     }
     },
     {
      "rc": "14030A013000280000DE",
@@ -581,7 +642,10 @@
       "pct_no_monte": 100,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -5.132530742532181,
+      "lat": 37.75937144674457
+     }
     }
    ],
    "agrupaciones_colindantes": [
@@ -639,7 +703,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.772359784610007,
+      "lat": 41.113738075175704
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.c2ca831e-d53e-47b6-8334-e30b5ff518be\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.77312132,41.11322507],[-3.77305819,41.11369167],[-3.77313918,41.11377462],[-3.77191408,41.11422478],[-3.77133516,41.11327354],[-3.77312132,41.11322507]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"c2ca831e-d53e-47b6-8334-e30b5ff518be\",\"codiige\":320,\"codiige_valor\":\"Pastizal o herbazal\",\"iberpix\":300,\"iberpix_valor\":\"Pastizal\""
+      }
+     ]
     },
     {
      "rc": "40143B001000930000GA",
@@ -669,7 +743,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.778695308082414,
+      "lat": 41.11372308108893
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.021331c9-0d49-4174-8626-8c1eb1f8f623\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.77999298,41.11347665],[-3.77827371,41.11413828],[-3.77808846,41.11382009],[-3.77796415,41.11363526],[-3.77898669,41.11324171],[-3.77902098,41.11325369],[-3.77915828,41.11319074],[-3.77930597,41.11320147],[-3.77999298,41.11347665]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"021331c9-0d49-4174-8626-8c1eb1f8f623\",\"codiige\":340,"
+      }
+     ]
     },
     {
      "rc": "40143B001001270000GQ",
@@ -699,7 +783,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.777119237979147,
+      "lat": 41.099906643400054
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.50305e67-627f-41f8-8ddb-8215b89ad9e8\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.77720885,41.09949883],[-3.77738,41.0995623],[-3.77755157,41.10024646],[-3.77638613,41.10028972],[-3.7771313,41.0995561],[-3.77720885,41.09949883]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"50305e67-627f-41f8-8ddb-8215b89ad9e8\",\"codiige\":320,\"codiige_valor\":\"Pastizal o herbazal\",\"iberpix\":300,\"iberpix_valor\":\"Pastizal\",\"hilu"
+      }
+     ]
     },
     {
      "rc": "40143B001001490000GU",
@@ -729,7 +823,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.784555914689008,
+      "lat": 41.109156464978795
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.294d1926-6d0a-464e-a1a0-90f69446f917\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.78607944,41.10817952],[-3.78632828,41.10846211],[-3.78310905,41.11009453],[-3.78278357,41.10985081],[-3.78607944,41.10817952]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"294d1926-6d0a-464e-a1a0-90f69446f917\",\"codiige\":340,\"codiige_valor\":\"Combinación de vegetación\",\"iberpix\":310320,\"iberpix_valor\":\"Combinaciones de Vegetació"
+      }
+     ]
     },
     {
      "rc": "40143B002000830000GO",
@@ -759,7 +863,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.760240149976747,
+      "lat": 41.10652526163
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.65a05272-1b4f-41c3-98af-dbeaee4ac528\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.76073965,41.10579019],[-3.76080746,41.10610654],[-3.76002348,41.10695456],[-3.75990924,41.10695458],[-3.75983178,41.10696941],[-3.75965165,41.10696698],[-3.76073965,41.10579019]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"65a05272-1b4f-41c3-98af-dbeaee4ac528\",\"codiige\":320,\"codiige_valor\":\"Pastizal o herbazal\",\"iberpix\":300,"
+      }
+     ]
     },
     {
      "rc": "40143B002001770000GO",
@@ -789,7 +903,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.7481771170588707,
+      "lat": 41.103363118307726
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.f63de069-2fbf-4af0-a81c-f975b0fdac9d\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.746903,41.10331386],[-3.74697688,41.10321348],[-3.74707329,41.10301945],[-3.74990161,41.10348689],[-3.74977353,41.10378835],[-3.746903,41.10331386]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"f63de069-2fbf-4af0-a81c-f975b0fdac9d\",\"codiige\":320,\"codiige_valor\":\"Pastizal o herbazal\",\"iberpix\":300,\"iberpix_valor\":\"Pastizal\",\"hi"
+      }
+     ]
     },
     {
      "rc": "40143B002101610000GL",
@@ -819,7 +943,10 @@
       "pct_no_monte": 0,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.7514892799612722,
+      "lat": 41.103932169390696
+     }
     },
     {
      "rc": "40143B003000730000GU",
@@ -849,7 +976,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.7636091912949095,
+      "lat": 41.09719968558623
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.f3b10158-ecc3-4f93-bfaf-d037567ae351\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.76305437,41.09670465],[-3.76308183,41.0967081],[-3.7631238,41.09673323],[-3.76319176,41.0967399],[-3.76323156,41.09672261],[-3.76330771,41.09673805],[-3.76335955,41.09675167],[-3.76341213,41.09678808],[-3.76347803,41.09678223],[-3.76352933,41.0968109],[-3.76354854,41.09684491],[-3.76354942,41.09688004],[-3.76362842,41.09696708],[-3.76"
+      }
+     ]
     },
     {
      "rc": "40143B003001020000GZ",
@@ -879,7 +1016,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.77479657608321,
+      "lat": 41.09340204464001
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.9dfbdb63-a375-40bc-9548-dc9c7ba70624\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.77542857,41.09373032],[-3.77476376,41.09407349],[-3.77469554,41.09396893],[-3.77441883,41.0934406],[-3.77413316,41.0928059],[-3.77480585,41.09279444],[-3.7750485,41.09319935],[-3.77542857,41.09373032]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"9dfbdb63-a375-40bc-9548-dc9c7ba70624\",\"codiige\":340,\"codiige_valor\":\"Combinación "
+      }
+     ]
     },
     {
      "rc": "40143B004000190000GB",
@@ -909,7 +1056,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.7400369873533093,
+      "lat": 41.10214673853347
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.744fe2bb-ee78-489b-99a9-2f308f795286\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.73918887,41.10080627],[-3.74081478,41.10193694],[-3.74188687,41.10268229],[-3.74090985,41.10350442],[-3.73808445,41.10153981],[-3.73918887,41.10080627]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"744fe2bb-ee78-489b-99a9-2f308f795286\",\"codiige\":320,\"codiige_valor\":\"Pastizal o herbazal\",\"iberpix\":701,\"iberpix_valor\":\"Dehesa\",\""
+      }
+     ]
     },
     {
      "rc": "40143B004000440000GE",
@@ -939,7 +1096,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.7361210217861793,
+      "lat": 41.10144195367111
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.f55f77e6-b342-4983-99c1-d1bf9a5da88a\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.73598277,41.10055071],[-3.73731382,41.10193167],[-3.73670315,41.10233725],[-3.73527449,41.10135728],[-3.73545812,41.1012718],[-3.73590517,41.10103708],[-3.73568395,41.10071132],[-3.73598277,41.10055071]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"f55f77e6-b342-4983-99c1-d1bf9a5da88a\",\"codiige\":320,\"codiige_valor\":\"Pastizal o"
+      }
+     ]
     },
     {
      "rc": "40143B004000530000GA",
@@ -969,7 +1136,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.744007739293228,
+      "lat": 41.09579549191229
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.7572ca11-d429-4396-8908-034bbeabb2ba\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.74443164,41.09624042],[-3.74432828,41.09630136],[-3.74425687,41.0963711],[-3.74424019,41.09641628],[-3.74425721,41.0965048],[-3.74424621,41.09651157],[-3.74407629,41.09636591],[-3.74401821,41.09632897],[-3.74368251,41.09549432],[-3.74369617,41.09547806],[-3.74370011,41.09548476],[-3.74380757,41.09545693],[-3.74389349,41.09539189],[-3."
+      }
+     ]
     },
     {
      "rc": "40143B004000710000GR",
@@ -999,7 +1176,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.7407678553094006,
+      "lat": 41.09331935386235
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.db41555f-00b9-4ec2-9ed3-f1d2502c4ce9\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.74148241,41.09298997],[-3.74215139,41.09294722],[-3.74258876,41.09344426],[-3.73979368,41.09362294],[-3.73944319,41.09347043],[-3.73928279,41.09345921],[-3.73919434,41.09342959],[-3.7391136,41.09337553],[-3.73888777,41.09315582],[-3.74148241,41.09298997]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"db41555f-00b9-4ec2-9ed3-f1d"
+      }
+     ]
     },
     {
      "rc": "40143B004001050000GJ",
@@ -1029,7 +1216,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.7324945290735565,
+      "lat": 41.091498360689386
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.d73a95c8-865f-426d-a91d-2706ce514ea6\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.73116852,41.09087561],[-3.73131094,41.09069706],[-3.73165754,41.09086529],[-3.73176651,41.09094954],[-3.7318992,41.09098508],[-3.73201965,41.09100251],[-3.73215159,41.09098046],[-3.73245268,41.09102707],[-3.73260532,41.09106252],[-3.73270188,41.09109521],[-3.73275854,41.09114936],[-3.73286408,41.09127015],[-3.73294648,41.09147283],[-3"
+      }
+     ]
     },
     {
      "rc": "40143B004001110000GZ",
@@ -1059,7 +1256,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.7369381964974306,
+      "lat": 41.0893635503196
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.e30465ca-332a-41b6-b489-03073a392100\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.73743638,41.09057264],[-3.7365374,41.09114817],[-3.73609641,41.0907537],[-3.73594209,41.09045554],[-3.73575072,41.08997315],[-3.73552867,41.08953828],[-3.73528785,41.08916435],[-3.73570201,41.08897457],[-3.73633494,41.08865369],[-3.73656864,41.08849376],[-3.73675883,41.08834732],[-3.73711297,41.08804799],[-3.73764198,41.08755579],[-3."
+      }
+     ]
     },
     {
      "rc": "40143B004001120000GU",
@@ -1089,7 +1296,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.738839339895306,
+      "lat": 41.087195355992826
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.71fd12ae-0e78-4ad6-83cf-6e78da114ccb\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.73964106,41.08698433],[-3.73964647,41.08696599],[-3.73940893,41.08708971],[-3.73929535,41.08713314],[-3.73920934,41.08711394],[-3.73896442,41.08715451],[-3.73876492,41.08721922],[-3.73846735,41.08717723],[-3.73816451,41.08711093],[-3.73837976,41.08693364],[-3.73895913,41.08649424],[-3.73928788,41.08626104],[-3.73962568,41.08604763],[-"
+      }
+     ]
     },
     {
      "rc": "40143B004001190000GQ",
@@ -1119,7 +1336,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.741002239421192,
+      "lat": 41.09053527830811
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.021e2188-cbf5-40d0-888c-a00c8e7b26f5\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.74123175,41.09003338],[-3.74118691,41.09101084],[-3.7408124,41.09103473],[-3.74077359,41.0910188],[-3.74081758,41.09005979],[-3.74123175,41.09003338]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"021e2188-cbf5-40d0-888c-a00c8e7b26f5\",\"codiige\":320,\"codiige_valor\":\"Pastizal o herbazal\",\"iberpix\":300,\"iberpix_valor\":\"Pastizal\",\""
+      }
+     ]
     },
     {
      "rc": "40143B005000570000GH",
@@ -1149,7 +1376,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.7541292948671794,
+      "lat": 41.082341289733144
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.6b0e3e59-39a3-4fc7-8c60-cd9475ca7aea\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.75440979,41.08010333],[-3.75440066,41.08015178],[-3.75433444,41.08030216],[-3.75421391,41.08062538],[-3.75416412,41.08080401],[-3.7541352,41.0811714],[-3.75413454,41.08136788],[-3.75418491,41.08156469],[-3.75424871,41.08174751],[-3.75433848,41.08212647],[-3.7544042,41.0823284],[-3.75462022,41.0831543],[-3.75468225,41.08336151],[-3.754"
+      }
+     ]
     },
     {
      "rc": "40143B005000720000GT",
@@ -1179,7 +1416,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.749475679748498,
+      "lat": 41.08259577242374
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.0d115990-54b4-45d7-8d57-cc7d62a7fc3d\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.74879844,41.0826613],[-3.7498219,41.08212223],[-3.74993423,41.08227906],[-3.74997329,41.08236532],[-3.75003113,41.08256942],[-3.75004203,41.08284788],[-3.74903039,41.08303238],[-3.74879844,41.0826613]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"0d115990-54b4-45d7-8d57-cc7d62a7fc3d\",\"codiige\":320,\"codiige_valor\":\"Pastizal o h"
+      }
+     ]
     },
     {
      "rc": "40143B005000770000GR",
@@ -1209,7 +1456,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.74991082966819,
+      "lat": 41.08591937043646
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.2b187e76-c325-4393-bb6f-62a29859bb6b\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.75036776,41.0853186],[-3.75070023,41.08585015],[-3.74881956,41.08652907],[-3.74936216,41.08592596],[-3.74903003,41.08590785],[-3.74884396,41.08588235],[-3.74885283,41.08587912],[-3.74884842,41.0858712],[-3.75036776,41.0853186]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"2b187e76-c325-4393-bb6f-62a29859bb6b\",\"codiige\":320,\"co"
+      }
+     ]
     },
     {
      "rc": "40143B006000290000GZ",
@@ -1245,7 +1502,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.7705576107637273,
+      "lat": 41.09165720605854
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.edd9dc85-05e3-43f3-82dc-6d1e9ad1472e\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.77104399,41.09109122],[-3.77151582,41.09272612],[-3.77103242,41.09279921],[-3.7710662,41.09288564],[-3.77072169,41.09294557],[-3.7704351,41.09297801],[-3.77029722,41.09300626],[-3.77006167,41.09219034],[-3.77023943,41.09200226],[-3.77027521,41.09194097],[-3.77024266,41.09161543],[-3.77025253,41.09147638],[-3.77041782,41.09135365],[-3."
+      }
+     ]
     },
     {
      "rc": "40143B006000550000GD",
@@ -1275,7 +1542,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.755042400191672,
+      "lat": 41.08086506872376
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.7a47ee4d-41f9-4cc4-9a6a-ceb2729989db\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.75482982,41.07985521],[-3.75585942,41.08091313],[-3.75438341,41.08180543],[-3.75425365,41.08135941],[-3.75425423,41.08117375],[-3.75428222,41.08081666],[-3.75432933,41.08064809],[-3.75444877,41.08032756],[-3.754517,41.08017265],[-3.7545346,41.08007944],[-3.75462161,41.08004532],[-3.75470132,41.07995857],[-3.75482982,41.07985521]]]},\"g"
+      }
+     ]
     },
     {
      "rc": "40143B006000600000GI",
@@ -1305,7 +1582,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.7590069397910733,
+      "lat": 41.080486358337886
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.632243cf-5fdd-461d-b162-2b520d3e5115\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.75859611,41.08007648],[-3.75884138,41.08024228],[-3.75896636,41.08034722],[-3.75915588,41.08046046],[-3.75919804,41.08050036],[-3.75936259,41.08074529],[-3.75937633,41.08080732],[-3.75928807,41.08090808],[-3.75908933,41.08086197],[-3.75902939,41.08080959],[-3.75897851,41.08073683],[-3.75897642,41.08069928],[-3.75893031,41.08059634],[-"
+      }
+     ]
     },
     {
      "rc": "40143B006000610000GJ",
@@ -1335,7 +1622,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.7593236464531645,
+      "lat": 41.081538298067564
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.6a922b12-52ce-48d0-9c39-ee87636c4198\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.75842052,41.08119693],[-3.75853082,41.08090842],[-3.75855261,41.08060942],[-3.75852386,41.08039819],[-3.75860072,41.08041537],[-3.7586962,41.08045376],[-3.75886795,41.0805888],[-3.75890886,41.08066977],[-3.75892478,41.08076525],[-3.75897374,41.08083037],[-3.75902889,41.08087757],[-3.75916334,41.08094353],[-3.75919235,41.08096742],[-3."
+      }
+     ]
     },
     {
      "rc": "40143B006000690000GB",
@@ -1365,7 +1662,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.755778805626705,
+      "lat": 41.08464715937414
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.faeaab10-bfbd-427f-aa3b-f8ebcb3d63e0\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.75527253,41.08376067],[-3.75630908,41.08482554],[-3.75536249,41.08539772],[-3.75542485,41.0849709],[-3.75543356,41.08475522],[-3.7554152,41.08454391],[-3.75537178,41.0843279],[-3.75528536,41.08411122],[-3.75509039,41.08386142],[-3.75527253,41.08376067]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"faeaab10-bfbd-427f-aa3b-f8ebc"
+      }
+     ]
     },
     {
      "rc": "40143B006000960000GZ",
@@ -1395,7 +1702,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.7609687546959405,
+      "lat": 41.09013908794657
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.9ff20852-48bb-45c1-ae3e-5044039f1988\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.76184197,41.08977556],[-3.76203904,41.08996155],[-3.76015326,41.09048665],[-3.76005011,41.09027455],[-3.76184197,41.08977556]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"9ff20852-48bb-45c1-ae3e-5044039f1988\",\"codiige\":320,\"codiige_valor\":\"Pastizal o herbazal\",\"iberpix\":300,\"iberpix_valor\":\"Pastizal\",\"hilucs\":631,\"hilucs_valo"
+      }
+     ]
     },
     {
      "rc": "40143B008000150000GZ",
@@ -1425,7 +1742,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.730915217192183,
+      "lat": 41.0865274626254
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.12bb96d0-7106-4f42-9c00-9411e3d6b869\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-3.7297511,41.08380652],[-3.73276656,41.08863905],[-3.73269808,41.08867115],[-3.732569,41.08879772],[-3.73201494,41.0891481],[-3.72906553,41.08441592],[-3.7297511,41.08380652]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"12bb96d0-7106-4f42-9c00-9411e3d6b869\",\"codiige\":340,\"codiige_valor\":\"Combinación de vegetación\",\"iberpix\":310"
+      }
+     ]
     }
    ],
    "agrupaciones_colindantes": []
@@ -1473,7 +1800,17 @@
       "pct_no_monte": 11,
       "clase_catastro": "dudoso"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -0.5666792693590482,
+      "lat": 38.3863718636062
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.9e52abcf-284a-42b7-9350-11422bcebae7\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-0.56639011,38.3860566],[-0.56655183,38.38616788],[-0.56680877,38.38627198],[-0.56694448,38.38632517],[-0.56709255,38.38634086],[-0.56699498,38.38643389],[-0.56685463,38.38654278],[-0.5665052,38.38620426],[-0.56639011,38.3860566]]]},\"geometry_name\":\"geom\",\"properties\":{\"id_polygon\":\"9e52abcf-284a-42b7-9350-11422bcebae7\",\"codiige\":340,\"co"
+      }
+     ]
     }
    ]
   },
@@ -1514,7 +1851,10 @@
       "pct_no_monte": 100,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.135120820254472,
+      "lat": 40.128643303946845
+     }
     },
     {
      "rc": "28060A103004670000KL",
@@ -1544,7 +1884,10 @@
       "pct_no_monte": 100,
       "clase_catastro": "no_monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -3.1347391622999075,
+      "lat": 40.12891128861465
+     }
     }
    ],
    "agrupaciones_colindantes": [
@@ -1661,7 +2004,17 @@
       "pct_no_monte": 0,
       "clase_catastro": "monte"
      },
-     "coordenadas": null
+     "coordenadas": {
+      "lon": -7.329926185284579,
+      "lat": 42.565217362136956
+     },
+     "ocupacion_suelo": [
+      {
+       "servicio": "Ocupacion suelo IGN (CORINE/SIOSE)",
+       "capa": "LC.LandCoverSurfaces",
+       "respuesta": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"siose_ar2017.2da6eb69-2d5a-454a-9d6a-04930026e6ce\",\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-7.33593777,42.56613797],[-7.33593681,42.56620542],[-7.33570122,42.56624771],[-7.33504471,42.56632578],[-7.33457899,42.56630186],[-7.33382562,42.56624329],[-7.33317189,42.56621664],[-7.33221963,42.56637038],[-7.33207343,42.5663454],[-7.33186997,42.56634244],[-7.33147999,42.56637675],[-7.3305675,42.56668152],[-7.32961034,42.56672851],[-7."
+      }
+     ]
     }
    ]
   }
