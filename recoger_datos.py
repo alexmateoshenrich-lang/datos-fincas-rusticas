@@ -376,6 +376,19 @@ def catastro_poligono(rc14):
     return None
 
 
+def coord_desde_geom(geom):
+    """Punto interior de la parcela (ETRS89 UTM 30N) -> lon, lat WGS84."""
+    try:
+        from pyproj import Transformer
+        c = geom.representative_point()
+        t = Transformer.from_crs("EPSG:25830", "EPSG:4326", always_xy=True)
+        lon, lat = t.transform(c.x, c.y)
+        return lon, lat
+    except Exception as e:
+        error("coord-geom", repr(e))
+        return None
+
+
 def agrupar(parcelas):
     """parcelas: lista de dicts con rc, geom, ha. Une las que se tocan (< 2 m)."""
     n = len(parcelas)
@@ -577,9 +590,13 @@ def main():
             stat("rc_consultadas")
             cat = catastro_dnprc(rc)
             item["catastro"] = cat
-            coord = catastro_coord(rc[:14])
-            item["coordenadas"] = {"lon": coord[0], "lat": coord[1]} if coord else None
             geom = catastro_poligono(rc[:14])
+            coord = catastro_coord(rc[:14])
+            if coord is None and geom is not None:
+                coord = coord_desde_geom(geom)
+                if coord:
+                    stat("coord_desde_geometria")
+            item["coordenadas"] = {"lon": coord[0], "lat": coord[1]} if coord else None
             if geom is not None and cat and cat.get("ha"):
                 parcelas.append({"rc": rc, "geom": geom, "ha": cat["ha"]})
             elif geom is not None:
